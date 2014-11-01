@@ -98,4 +98,4 @@ echo "Compressing into $OUT"
 
 (cd "$PACKAGE"; zip -q9r "$current/$OUT" *)
 
-#rm -rf "$PACKAGE"
+rm -rf "$PACKAGE"
