@@ -25,14 +25,24 @@ Made in Brazil
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Avi Alkalay</title>
+    
+    <!-- A generic title, will be substituted by Javascript below -->
+    <title>Digital Business Card</title>
+    
+    <!-- Be friendly with social media, specialy Facebook... -->
+	<meta property="og:type"          content="profile" />
+    <meta property="og:title"         content="Digital Business Card for Avi Alkalay" />
+    <meta property="og:description"   content="Avi Alkalay • IT Architect, disruptive hitech • IBM Brazil" />
+    <meta property="og:image"         content="https://Avi.Alkalay.net/card/passbookscreenshot.png" />
+    <link rel="image_src"             href="https://Avi.Alkalay.net/card/passbookscreenshot.png" />
+
+	<link rel="profile" href="http://microformats.org/profile/hcard">
+	<link rel="software" href="https://github.com/avibrazil/digital-business-card">
 
     <!-- Bootstrap -->
     <!--link href="resources/css/bootstrap.min.css" rel="stylesheet"-->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
 	<!--link href="resources/css/bootstrap-theme.min.css" rel="stylesheet"-->
-	
-	<link rel="profile" href="http://microformats.org/profile/hcard">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,9 +50,11 @@ Made in Brazil
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
+	<!-- The actual business card data -->    
 	<script src="data.json"></script>
 
+	<!-- Some customizations on top of Bootstrap -->
 	<style>
 		.role, .org {
 			font-size: 1em;
