@@ -110,11 +110,12 @@ Made in Brazil
 			margin-left: auto;
 			margin-right: auto;
 		}
-/*		
+		
 		.container {
 			max-width: 320px;
+			width: 320px;
 		}
-*/		
+		
 		.list-group-item {
 /*			border: .07em solid grey; */
 			color: black;
@@ -225,14 +226,23 @@ Made in Brazil
 			<div class="container" id="phone">
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) { 
-						var protocol = "tel";
-						if (section[i].label == "facetime") protocol = "facetime";%>
+						var protocol;
+						switch (section[i].label) {
+							case "facetime":
+								protocol = "facetime://";
+								break;
+							case "skype":
+								protocol = "skype:";
+								break;
+							default:
+								protocol = "tel://";
+						} %>
 						<li class="list-group-item">
-							<div class="container">
+							<div class="">
 								<div class="row tel">
 									<div class="col-xs-3 column label type"><%=section[i].label%></div>
 									<div class="col-xs-9 column value">
-										<a class="value" href="<%=protocol%>://<%=section[i].value%>"><%=section[i].value%></a>
+										<a class="value" href="<%=protocol%><%=section[i].value%>"><%=section[i].value%></a>
 									</div>
 								</div>
 							</div>
@@ -249,7 +259,7 @@ Made in Brazil
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) { %>
 						<li class="list-group-item">
-							<div class="container">
+							<div class="">
 								<div class="row">
 									<div class="col-xs-3 column label"><%=section[i].label%></div>
 									<div class="col-xs-9 column value">
@@ -271,7 +281,7 @@ Made in Brazil
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) { %>
 						<li class="list-group-item">
-							<div class="container">
+							<div class="">
 								<div class="row">
 									<div class="col-xs-3 column label"><%=section[i].label%></div>
 									<div class="col-xs-9 column adr value">
@@ -335,7 +345,7 @@ Made in Brazil
 					
 					 %>
 						<li class="list-group-item">
-							<div class="container">
+							<div class="">
 								<div class="row">
 									<div class="col-xs-3 column label"><%=label%></div>
 									<div class="col-xs-9 column value">
@@ -356,12 +366,10 @@ Made in Brazil
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) { %>
 						<li class="list-group-item">
-							<div class="container">
+							<div class="">
 								<div class="row">
 									<div class="col-xs-3 column label"><%=section[i].label%></div>
-									<div class="col-xs-9 column value">
-										<%=section[i].value%>
-									</div>
+									<div class="col-xs-9 column value"><%=section[i].value%></div>
 								</div>
 							</div>
 						</li>
