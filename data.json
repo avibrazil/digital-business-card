@@ -1,0 +1,88 @@
+var obj =
+{
+	/*
+		Everywhere the emailchar appears on values, it will be substituted by "@". This
+		is to make more difficult the life of e-mail address crawlers.
+	*/
+	"emailchar": "ⓐ",
+	
+	"name": {
+		"first": "Avi",
+		"last": "Alkalay",
+	},
+	"title": "IT Architect, disruptive hitech",
+	"company": "IBM",
+	"department": "Cloud • Analytics • Mobile • User Engagement • Security",
+	
+	"section": {
+		"phone": [
+			{
+				"value": "+55 (11) 99659-9059",
+				"label": "mobile",
+				"microformatTag": "mobile",
+				"vcfTag": "mobile" 
+			},
+			{
+				"value": "+55 (11) 2132-2327",
+				"label": "work"
+			},
+			{
+				"value": "avixⓐbr.ibm.com",
+				"label": "facetime"
+			},
+			{
+				"value": "avibrazil",
+				"label": "skype"
+			}
+		],
+
+		"mail": [
+			{
+				"value": "avixⓐbr.ibm.com",
+				"label": "work"
+			},
+			{
+				"value": "aviⓐunix.sh",
+				"label": "personal"
+			},
+		],
+		
+		"social": [
+			{
+				"value": "avibrazil",
+				"label": "linkedin"
+			},
+			{
+				"value": "avibrazil",
+				"label": "facebook"
+			},
+			{
+				"value": "avibrazil",
+				"label": "twitter"
+			},
+			{
+				"value": "+AviAlkalayBrazil",
+				"label": "google"
+			}
+		],
+		
+		"address": [
+			{
+				"label": "work",
+				"street": "Tutóia 1157",
+				"city": "São Paulo",
+				"state": "São Paulo",
+				"country": "Brazil",
+				"zip": "04007-900",
+				"geo": "-23.579975,-46.649241"
+			}
+		],
+		
+		"other": [
+			{
+				"label": "Bitcoin",
+				"value": "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR"
+			}
+		]
+	}	
+};

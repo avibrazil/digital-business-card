@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<!--
+
+This is part of the Digital Business Card project.
+This is the visual, HTML+hCard part of it, for whom doesn't have Passbook software nor
+Address Book software.
+Other versions of digital business cards proposed by this project
+are Passbook and Address Book (VCF).
+
+This HTML file uses Bootstrap and JQuery. It contains no personal data.
+All data is located on an external file called data.json, loaded by the browser and
+rendered by the Javascript and templates on the bottom of this HTML file.
+Content is rendered with Microformat's hCard tags (http://microformats.org/wiki/h-card).
+
+Avi Alkalay
+<avi at unix dot sh>
+2014-10-31
+Made in Brazil
+
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Avi Alkalay</title>
+
+    <!-- Bootstrap -->
+    <!--link href="resources/css/bootstrap.min.css" rel="stylesheet"-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+	<!--link href="resources/css/bootstrap-theme.min.css" rel="stylesheet"-->
+	
+	<link rel="profile" href="http://microformats.org/profile/hcard">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+	<script src="data.json"></script>
+
+	<style>
+		.role, .org {
+			font-size: 1em;
+		}
+			
+		body {
+			background-color: rgb(208,214,224);
+		}
+		
+		.n {
+			text-shadow: .05em .05em 0 white;
+			font-weight: bold;
+			font-size: 1.6em;
+			margin-top: 0;
+		}
+		
+		.role, .organization-unit, .organization-name {
+			color: rgb(65,75,95);
+			text-shadow: .07em .07em 0 white;
+		}
+		
+		.organization-unit, .role, .org {
+			font-weight: normal;
+			margin-top: 0;
+		}
+		
+		.photo {
+			/* border: 2px solid black; */
+			box-shadow: 2px 2px 0 0 white, 0 0 2px 2px black;
+		}
+		
+		.gap {
+			height: 1em;
+		}
+
+		.label {
+			text-align: right;
+			color: rgb(0,52,115);
+			font-weight: normal;
+			font-size: 1em;	
+		}
+		
+		.value {
+			overflow-x: scroll;
+		}
+		
+		#footer hr {
+			width: 90%;
+			border-color: grey;
+			margin-top: 0;
+			margin-bottom: .8em;
+		}
+		
+		#footer p {
+			color: grey;
+			font-size: .8em;
+			margin-left: 2em;
+			margin-right: 2em;
+		}
+		
+		/* --------------------------------------------- */
+		
+		.container-fixed {
+			max-width: 320px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+/*		
+		.container {
+			max-width: 320px;
+		}
+*/		
+		.list-group-item {
+/*			border: .07em solid grey; */
+			color: black;
+			font-weight: bold;
+		}
+		
+		.list-group-item a {
+			color: black;
+		}
+		
+		.list-group-item:first-child {
+			border-top-left-radius: .7em;
+			border-top-right-radius: .7em;
+		}
+		
+		.list-group-item:last-child {
+			border-bottom-left-radius: .7em;
+			border-bottom-right-radius: .7em;
+		}
+		
+		.img-rounded {
+			border-radius: 1em;
+		}
+		
+		address {
+			margin-bottom: 0;
+		}
+		
+	</style>
+
+  </head>
+  <body>
+  	<div class="container-fixed vcard">
+		<div class="container">
+			<div class="row"><br/></div>
+		</div>
+		<div class="container" id="nametitle">
+			<div class="row">
+				<div class="col-xs-4 col-md-4 column">
+					<img src="photo.jpg" alt="photo" style="width: 100%" class="img-rounded img-responsive photo"/>
+				</div>
+				<div class="col-xs-8 col-md-8 column nametitle">
+					<h1 class="name n"><span class="given-name"><script>document.write(obj.name.first)</script></span> <span class="family-name"><script>document.write(obj.name.last)</script></span></h1>
+					<h2 class="role"><script>document.write(obj.title)</script></h2>
+					<h3 class="org"><span class="organization-unit"><script>document.write(obj.department)</script></span> @
+					<span class="organization-name"><script>document.write(obj.company)</script></span></h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="container gap"></div>
+	
+		<div class="container buttons">
+			<div class="row">
+				<div class="col-xs-6 col-md-6 column">
+					<p class="text-center"><a href="vcard.vcf"><img src="resources/img/add-to-addressbook-badge.png" style="width: 130px" alt="Add to address book"/></a></p>
+				</div>
+				<div class="col-xs-6 col-md-6 column">
+					<p class="text-center"><a href="passbook.pkpass"><img src="resources/img/add-to-passbook-badge.png" style="width: 130px" alt="Add to Passbook"/></a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container gap"></div>
+	
+		<div id="sections">
+		</div>
+		
+		<div id="footer">
+			<div class="container">
+				<hr/>
+				<p class="text-center">The Digital Business Card project says: save trees, spread the bits, think mobile, act mobile.</p>
+			</div>
+		</div>
+	</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="resources/js/bootstrap.min.js"></script>
+  </body>
+  
+  
+  
+  <script><!--		
+		$(document).ready(function() {		
+
+			var sobj = window.JSON.stringify(obj);
+			sobj=sobj.split(obj.emailchar).join("@");
+			obj = window.JSON.parse(sobj);
+			
+			document.title=obj.name.first + " " + obj.name.last + ": " + obj.title;
+			
+			var results = document.getElementById("sections");
+			
+			results.innerHTML += tmpl("section_phone_template",section=obj.section.phone);
+			results.innerHTML += tmpl("section_social_template",section=obj.section.social);
+			results.innerHTML += tmpl("section_mail_template",section=obj.section.mail);
+			results.innerHTML += tmpl("section_address_template",section=obj.section.address);
+			results.innerHTML += tmpl("section_other_template",section=obj.section.other);
+		});
+		-->
+	</script>
+	
+	<script type="text/html" id="section_phone_template">
+		<% if (section.length) { %>
+			<div class="container" id="phone">
+				<ul class="list-group">
+					<% for ( var i = 0; i < section.length; i++ ) { 
+						var protocol = "tel";
+						if (section[i].label == "facetime") protocol = "facetime";%>
+						<li class="list-group-item">
+							<div class="container">
+								<div class="row tel">
+									<div class="col-xs-3 column label type"><%=section[i].label%></div>
+									<div class="col-xs-9 column value">
+										<a class="value" href="<%=protocol%>://<%=section[i].value%>"><%=section[i].value%></a>
+									</div>
+								</div>
+							</div>
+						</li>
+					<% } %>
+				</ul>
+			</div>
+		<% } %>
+	</script>
+
+	<script type="text/html" id="section_mail_template">
+		<% if (section.length) { %>
+			<div class="container" id="mail">
+				<ul class="list-group">
+					<% for ( var i = 0; i < section.length; i++ ) { %>
+						<li class="list-group-item">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-3 column label"><%=section[i].label%></div>
+									<div class="col-xs-9 column value">
+										<a class="mail" href="mailto:<%=section[i].value%>"><%=section[i].value%></a>
+									</div>
+								</div>
+							</div>
+						</li>
+					<% } %>
+				</ul>
+			</div>
+		<% } %>
+	</script>
+
+	<script type="text/html" id="section_address_template">
+		<% if (section.length) {
+			var apple = ( navigator.userAgent.match(/(Mac|iPad|iPhone|iPod)/g) ? true : false ); %>
+			<div class="container" id="address">
+				<ul class="list-group">
+					<% for ( var i = 0; i < section.length; i++ ) { %>
+						<li class="list-group-item">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-3 column label"><%=section[i].label%></div>
+									<div class="col-xs-9 column adr value">
+										<% if (section[i].geo) {
+											if (apple) { /* Open in Maps app on Apple devices */ %>
+												<a href="http://maps.apple.com/?ll=<%=section[i].geo%>&z=19&q=<%=section[i].geo%>">
+											<% } else { %>
+												<a href="https://www.google.com.br/maps/@<%=section[i].geo%>,19z" targe="_new">
+											<% } %>
+											<span class="glyphicon glyphicon-map-marker" style="color: red"></span></a>
+										<% } %>
+										<% if (section[i].street) { %>
+											<span class="street-address"><%=section[i].street%></span><br/>
+										<% } %>
+										<% if (section[i].city) { %>
+											<span class="locality"><%=section[i].city%></span><% if (section[i].state) { %>,<% } %>
+										<% } %>
+										<% if (section[i].state) { %>
+											<span class="region"><%=section[i].state%></span><br/>
+										<% } %>
+										<% if (section[i].zip) { %>
+											<span class="postal-code"><%=section[i].zip%></span><br/>
+										<% } %>
+										<% if (section[i].country) { %>
+											<div class="country-name"><%=section[i].country%></span><br/>
+										<% } %>
+									</div>
+								</div>
+							</div>
+						</li>
+					<% } %>
+				</ul>
+			</div>
+		<% } %>		
+	</script>
+
+	<script type="text/html" id="section_social_template">
+		<% if (section.length) { %>
+			<div class="container" id="mail">
+				<ul class="list-group">
+					<% for ( var i = 0; i < section.length; i++ ) {
+						var url;
+						var label = '<img src="resources/img/' + section[i].label + '.png" alt="' + section[i].label + '"/>';
+						switch (section[i].label) {
+							case "twitter":
+								url = "https://twitter.com/" + section[i].value;
+								break;
+							case "facebook":
+								url = "https://facebook.com/" + section[i].value;
+								break;
+							case "google":
+								url = "https://plus.google.com/" + section[i].value;
+								break;
+							case "linkedin":
+								url = "https://www.linkedin.com/in/" + section[i].value;
+								break;
+							default:
+								label = section[i].label;
+						}
+					
+					
+					 %>
+						<li class="list-group-item">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-3 column label"><%=label%></div>
+									<div class="col-xs-9 column value">
+										<a href="<%=url%>"><%=section[i].value%></a>
+									</div>
+								</div>
+							</div>
+						</li>
+					<% } %>
+				</ul>
+			</div>
+		<% } %>
+	</script>
+
+	<script type="text/html" id="section_other_template">
+		<% if (section.length) { %>
+			<div class="container" id="other">
+				<ul class="list-group">
+					<% for ( var i = 0; i < section.length; i++ ) { %>
+						<li class="list-group-item">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-3 column label"><%=section[i].label%></div>
+									<div class="col-xs-9 column value">
+										<%=section[i].value%>
+									</div>
+								</div>
+							</div>
+						</li>
+					<% } %>
+				</ul>
+			</div>
+		<% } %>
+	</script>
+
+	<script id="template_system"><!--
+		// Simple JavaScript Templating
+		// John Resig - http://ejohn.org/ - MIT Licensed
+		// http://ejohn.org/blog/javascript-micro-templating/
+		(function(){
+		  var cache = {};
+ 
+		  this.tmpl = function tmpl(str, data){
+			// Figure out if we're getting a template, or if we need to
+			// load the template - and be sure to cache the result.
+			var fn = !/\W/.test(str) ?
+			  cache[str] = cache[str] ||
+				tmpl(document.getElementById(str).innerHTML) :
+	 
+			  // Generate a reusable function that will serve as a template
+			  // generator (and which will be cached).
+			  new Function("obj",
+				"var p=[],print=function(){p.push.apply(p,arguments);};" +
+	   
+				// Introduce the data as local variables using with(){}
+				"with(obj){p.push('" +
+	   
+				// Convert the template into pure JavaScript
+				str
+				  .replace(/[\r\t\n]/g, " ")
+				  .split("<%").join("\t")
+				  .replace(/((^|%>)[^\t]*)'/g, "$1\r")
+				  .replace(/\t=(.*?)%>/g, "',$1,'")
+				  .split("\t").join("');")
+				  .split("%>").join("p.push('")
+				  .split("\r").join("\\'")
+			  + "');}return p.join('');");
+   
+			// Provide some basic currying to the user
+			return data ? fn( data ) : fn;
+		  };
+		})();
+		-->
+	</script>
+
+</html>
