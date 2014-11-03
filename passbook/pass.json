@@ -56,7 +56,8 @@
       {
         "key": "backTitle",
         "label": "backTitle_label",
-        "value": "backTitle_value"
+        "value": "backTitle_value",
+		"attributedValue": "backTitle_attributedValue"
       },
       {
         "key": "backSocial",

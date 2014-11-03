@@ -13,7 +13,8 @@
 "frontEmail_value" = "avixⓐbr.ibm.com";
 
 "backTitle_label" = "What I do";
-"backTitle_value" = "Lead architect for mobile, user engagement, analytics, cloud and security solutions on the IBM Brazil CAMSS team";
+"backTitle_value" = "Lead architect for Third Platform solutions (mobile, user engagement, analytics, cloud, security) on the IBM Brazil CAMSS team";
+"backTitle_attributedValue" = "Lead architect for <a href=\"http://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> solutions (mobile, user engagement, analytics, cloud, security) on the IBM Brazil CAMSS team";
 
 "backSocial_label" = "Find me on social networks as";
 "backSocial_attributedValue" = "@avibrazil\n🅸 <a href=\"https://linkedin.com/in/avibrazil\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/avibrazil\">Facebook</a>\n🆃 <a href=\"http://twitter.com/avibrazil\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+AviAlkalayBrazil\">Google Plus</a>";
@@ -26,7 +27,7 @@
 "backAddress_label" = "Address";
 "backAddress_value" = "R. Tutóia 1157 • São Paulo • Brazil";
 
-"backBitcoin_label" = "Send me Bitcoins";
+"backBitcoin_label" = "Send me ฿itcoins";
 "backBitcoin_value" = "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR";
 
 "backWarning_label" = "✋ WARNING";
