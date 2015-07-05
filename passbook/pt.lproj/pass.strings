@@ -4,7 +4,7 @@
 "frontMainPhone_label" = "iPhone";
 "frontMainPhone_value" = "+55 (11) 9.9659-9059";
 
-"frontTitle_value" = "IT Architect, disruptive hitech";
+"frontTitle_value" = "Especialista e Consultor Cloud";
 
 "frontSocial_label" = "Redes Sociais";
 "frontSocial_value" = "@avibrazil";
@@ -13,8 +13,12 @@
 "frontEmail_value" = "avixⓐbr.ibm.com";
 
 "backTitle_label" = "O que eu faço";
-"backTitle_value" = "Arquiteto para soluções de 3ª Plataforma (mobilidade, engajamento do usuário, analítica, cloud, segurança) no time de CAMSS da IBM Brasil";
-"backTitle_attributedValue" = "Arquiteto para soluções de <a href=\"http://en.wikipedia.org/wiki/Third_platform\">3ª Plataforma</a> (mobilidade, engajamento do usuário, analítica, cloud, segurança) no time de CAMSS da IBM Brasil";
+"backTitle_value" = "Arquiteto na IBM para soluções de agilidade (☁Cloud, TI Bimodal, ☯DevOps) que habilitam inovações na 3ª Plataforma para mobilidade, engajamento do usuário e analítica";
+"backTitle_attributedValue" = "Arquiteto na IBM para soluções de agilidade (☁Cloud, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">TI Bimodal</a>, <a href=\"https://pt.wikipedia.org/wiki/DevOps\">☯DevOps</a>) que habilitam inovações na <a href=\"http://en.wikipedia.org/wiki/Third_platform\">3ª Plataforma</a> para mobilidade, engajamento do usuário e analítica";
+
+"backURL_label" = "Mais detalhes sobre as soluções da IBM";
+"backURL_value" = "http://IBM.com/BR";
+"backURL_attributedValue" = "<a href=\"http://IBM.com/br\">IBM.com/BR</a>";
 
 "backSocial_label" = "Encontre-me nas redes sociais como";
 "backSocial_attributedValue" = "@avibrazil\n🅸 <a href=\"https://linkedin.com/in/avibrazil\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/avibrazil\">Facebook</a>\n🆃 <a href=\"http://twitter.com/avibrazil\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+AviAlkalayBrazil\">Google Plus</a>";
@@ -30,7 +34,7 @@
 "backBitcoin_label" = "Mande-me ฿itcoins";
 "backBitcoin_value" = "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR";
 
-"backWarning_label" = "✋ ATENÇÃO";
+"backWarning_label" = "✋🏾 ATENÇÃO";
 "backWarning_value" = "E-mail é a pior forma de me contactar. Por favor prefira WhatsApp, iMessage, FaceTime, Facebook e Hangouts com meu telefone ou endereço de e-mail.";
 
 "backMore_label" = "Meu cartão de visita em 📇VCF e outros formatos";

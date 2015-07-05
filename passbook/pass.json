@@ -13,7 +13,7 @@
   
   "teamIdentifier": "T4355FX9KR",
   
-  "logoText": "C∙A∙M∙S∙S",
+  "logoText": "",
   
   "generic": {
   	"headerFields": [
@@ -64,6 +64,12 @@
         "label": "backSocial_label",
         "value": "frontSocial_value",
         "attributedValue": "backSocial_attributedValue"
+      },
+      {
+        "key": "backURL",
+        "label": "backURL_label",
+        "value": "backURL_value",
+        "attributedValue": "backURL_attributedValue"
       },
       {
         "key": "backMobile",
@@ -119,8 +125,8 @@
   
   "locations": [
     {
-      "latitude": -23.580637506932,
-      "longitude": -46.6501656,
+      "latitude": 0,
+      "longitude": 0,
       "relevantText": "locationsRelevantText_value"
     }
   ],
@@ -134,7 +140,7 @@
     } 
   ],
   
-  "relevantDate": "2014-12-06T12:00:00-02:00",
+  "relevantDate": "2015-12-06T12:00:00-02:00",
   
   "barcode": {
     "format": "PKBarcodeFormatQR",

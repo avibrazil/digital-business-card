@@ -10,9 +10,9 @@ var obj =
 		"first": "Avi",
 		"last": "Alkalay",
 	},
-	"title": "IT Architect, disruptive hitech",
+	"title": "Cloud Advisor & Specialist",
 	"company": "IBM",
-	"department": "Cloud • Analytics • Mobile • User Engagement • Security",
+	"department": "Cloud • Analytics • Mobile • User Engagement",
 	
 	"section": {
 		"phone": [
@@ -33,6 +33,10 @@ var obj =
 			{
 				"value": "avibrazil",
 				"label": "skype"
+			},
+			{
+				"value": "avibrazil.vmrⓐvidexio.com",
+				"label": "SIP"
 			}
 		],
 

@@ -39,7 +39,7 @@ PACKAGE=`mktemp -d $TMPPP/$RANDOM`
 
 echo "Packaging directory $SOURCE in $PACKAGE"
 
-(cd $SOURCE; find . | egrep -v ".DS_Store|signature|manifest.json" | sort | while read f; do
+(cd $SOURCE; find . | egrep -v ".DS_Store|signature|manifest.json|svg" | sort | while read f; do
 	if (echo "$f" | egrep -q ".strings|.json"); then
 		sed -e "s|$EMAILCHAR|@|g" < "$f" > "$PACKAGE/$f"
 	else

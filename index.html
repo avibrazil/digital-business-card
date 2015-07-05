@@ -10,7 +10,7 @@ are Passbook and Address Book (VCF).
 
 This HTML file uses Bootstrap and JQuery. It contains no personal data.
 All data is located on an external file called data.json, loaded by the browser and
-rendered by the Javascript and templates on the bottom of this HTML file.
+rendered by the JavaScript and templates on the bottom of this HTML file.
 Content is rendered with Microformat's hCard tags (http://microformats.org/wiki/h-card).
 
 Avi Alkalay
@@ -30,9 +30,10 @@ Made in Brazil
     <title>Digital Business Card</title>
     
     <!-- Be friendly with social media, specialy Facebook... -->
+    <!-- These meta tags must be hard coded (no JQuery) because they are read by Facebook -->
 	<meta property="og:type"          content="profile" />
     <meta property="og:title"         content="Digital Business Card for Avi Alkalay" />
-    <meta property="og:description"   content="Avi Alkalay • IT Architect, disruptive hitech • IBM Brazil" />
+    <meta property="og:description"   content="Avi Alkalay • Cloud Advisor & Specialist • IBM" />
     <meta property="og:image"         content="https://Avi.Alkalay.net/card/passbookscreenshot.png" />
     <link rel="image_src"             href="https://Avi.Alkalay.net/card/passbookscreenshot.png" />
 
@@ -215,7 +216,8 @@ Made in Brazil
   
   <script><!--		
 		$(document).ready(function() {		
-
+			// Check HTML <head>  to see how we loded data.json
+			
 			var sobj = window.JSON.stringify(obj);
 			sobj=sobj.split(obj.emailchar).join("@");
 			obj = window.JSON.parse(sobj);
@@ -245,6 +247,9 @@ Made in Brazil
 								break;
 							case "skype":
 								protocol = "skype:";
+								break;
+							case "SIP":
+								protocol = "sip://";
 								break;
 							default:
 								protocol = "tel://";
