@@ -63,7 +63,7 @@ I'll send you back a valid (tested) Passbook pass with my digital signature for 
 
 To sign it yourself (in case you have an Apple iOS developer certificate), you can use my `util/pkpass.sh` script that does all the hard work. Use it like this on the command line:
 ```
-util/pkpass.sh ${P12 certificate file from Apple Developer account} ${folder that contains the passbook JSON, image etc files} ${P12 certificate password}
+util/pkpass.sh ${P12 certificate file from Apple Developer account} ${folder that contains the passbook JSON, image etc files} ${P12 certificate password} ${optional: output file name}
 ```
 
 Passbook on Android and Windows Mobile
