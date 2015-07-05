@@ -76,7 +76,9 @@ https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcr
 https://play.google.com/store/apps/details?id=tw.com.freedi.passbook
 https://play.google.com/store/apps/details?id=com.attidomobile.passwallet
 
+```
 Your friend,
 Avi Alkalay <avi at unix do sh>
 2014-11-01
 Made in Brazil
+```
