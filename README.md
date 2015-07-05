@@ -51,7 +51,7 @@ iOS devices if you digitally sign it with an Apple certificate that you can get 
 
 If you aren't, I can sign one for you if you send me a Bitcoin donation, minimum B$0.03. This is what you need to do:
 
-1. Edit `passbook/pass.json`, `passbook/en.lproj/pass.strings`, `passbook/LANGUAGE.lproj/pass.strings` with your data.
+1. Edit `passbook/pass.json`, `passbook/en.lproj/pass.strings`, `passbook/_LANGUAGE_.lproj/pass.strings` with your data.
 2. Carefuly chose and put your Digital Business Card URL on the `passbook/pass.json` file for the QRcode.
 3. This URL has to be HTTPS, otherwise the Passbook app will not accept the card. You can get a free SSL certificate (HTTPS) for your site on https://StartSSL.com.
 4. If you don't have an HTTPS server and if you convince me you are a good person, I can host your passbook for you in some URL as https://Avi.Alkalay.net/.cards/your-card.pkpass. Not perfect but users don't actually see it. More B$0.09 please, for your lazyness of not making a free HTTPS server for yourself.
@@ -63,7 +63,7 @@ I'll send you back a valid (tested) Passbook pass with my digital signature for 
 
 To sign it yourself (in case you have an Apple iOS developer certificate), you can use my `util/pkpass.sh` script that does all the hard work. Use it like this on the command line:
 ```
-util/pkpass.sh ${P12 certificate from Apple Developer account} passbook ${P12 certificate password}
+util/pkpass.sh ${P12 certificate file from Apple Developer account} ${folder that contains the passbook JSON, image etc files} ${P12 certificate password}
 ```
 
 Passbook on Android and Windows Mobile
