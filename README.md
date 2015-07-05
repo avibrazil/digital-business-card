@@ -58,10 +58,10 @@ If you aren't, I can sign one for you if you send me a Bitcoin donation, minimum
 5. Put your photo, thumbnail and company logo on top of what you find on passbook folder.
 6. You can freely add and remove fields on your Passbook. Also make it active, editing fields as your birthday, your geolocation, iBeacons etc. You can see how I did it on my passbook.
 7. Zip the passbook folder and send it to me with the Bitcoin donation.
-8. To sign it yourself (in case you have an Apple iOS developer certificate), you can use my `util/pkpass.sh` script that does all the hard work. Call it like this:
-	```
-	util/pkpass.sh ${P12 certificate from Apple Developer account} passbook ${P12 certificate password}
-	```
+8. To sign it yourself (in case you have an Apple iOS developer certificate), you can use my `util/pkpass.sh` script that does all the hard work. Use it like this on the command line:
+```
+util/pkpass.sh ${P12 certificate from Apple Developer account} passbook ${P12 certificate password}
+```
 
 I'll send you back a valid (tested) Passbook pass with my digital signature for you to give to your contacts as your new business card.
 
