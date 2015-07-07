@@ -29,6 +29,12 @@
 "backPhone_label" = "Phone";
 "backPhone_value" = "+55 (11) 2132-2327";
 
+"backConference_label" = "Conference service";
+"backConference_value" = "https://Avi.Alkalay.net/meet";
+
+"backSIP_label" = "SIP & VoIP address";
+"backSIP_value" = "avibrazil.vmr@videxio.com";
+
 "backAddress_label" = "Address";
 "backAddress_value" = "R. Tutóia 1157 • São Paulo • Brazil";
 
