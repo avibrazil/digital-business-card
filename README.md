@@ -16,16 +16,13 @@ The whole idea is to avoid paper business cards in an easy and work-environment-
 
 This is it. Very easy and fun.
 
-<div style="float: right">
-    <img src="https://cloud.githubusercontent.com/assets/3484242/10709944/205147f2-7a20-11e5-8244-584473785f47.png" width="320px" alt="Non-Wallet users see this on their browsers" title="Non-Wallet users see this on their browsers"/>
-</div>
+Non-Wallet users (Android, Windows etc) can still scan the same code and get pointed to a mobile-friendly page on my website (see below) that visually resembles a phone contact, as shown in the screenshot below. There are visual icons to help the user to download my VCF file and, again, the Wallet pass.
 
-Non-Wallet users (Android, Windows etc) can still scan the same code and get pointed to a mobile-friendly page on my website that visually resembles a phone contact, as shown in the screenshot below. There are visual icons to help the user to download my VCF file and, again, the Wallet pass.
+![Non-Wallet users see this on their browsers](https://cloud.githubusercontent.com/assets/3484242/10709944/205147f2-7a20-11e5-8244-584473785f47.png)
 
 The rendered page shows your personal data as e-mail and phone. But it is safe from e-mail
-crawlers because the HTML is just a template that is mixed with the actual data using
-JavaScript on the visitor's browser. There is no server-side engine, no PHP, no MariaDB
-and nothing dynamic is required on the web server side. All are plain static files.
+crawlers because the HTML is just a template that JavaScript on visitor's browser mixes with the actual data.
+There is no server-side engine, no PHP, no databases and nothing dynamic is required on the web server side. All are plain static files.
 
 Usage
 =====
@@ -48,7 +45,7 @@ You can get a `vcard.vcf` file creating a contact of yourself on your smartphone
 Dettach it, rename it to `vcard.vcf` and upload it with the rest of your files.
 
 Wallet/Passbook
-========
+===============
 
 A Wallet pass is not required but is what actually makes the exchange of digital business cards fun, relevant, fast, colourful and effective. People will not forget you because of it.
 
@@ -73,7 +70,7 @@ util/pkpass.sh ${P12 certificate file from Apple Developer account} ${folder tha
 ```
 
 The card/pass on Android and Windows Mobile
-======================================
+===========================================
 
 I heard Windows Mobile now supports Wallet passes natively. Android user can install third party Wallet apps such as these:
 
@@ -84,7 +81,7 @@ https://play.google.com/store/apps/details?id=com.attidomobile.passwallet
 
 I've tested some of those and concluded they don't work very well. Final conclusion is that Windows and Android users can still scan my card/pass QR, but they'll get only the fallback web page with a link to download my VCF.
 
-Your friend,
-Avi Alkalay <avi at unix do sh>
-2014-11-01
+Your friend,<br/>
+Avi Alkalay &lt;avi at unix do sh&gt;<br/>
+2014-11-01<br/>
 Made in Brazil
