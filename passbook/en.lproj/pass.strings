@@ -1,32 +1,32 @@
 "frontHigh_label" = "My name is";
 "frontHigh_value" = "Avi Alkalay";
 
-"frontMainPhone_label" = "iPhone";
+"frontMainPhone_label" = "📱 iPhone";
 "frontMainPhone_value" = "+55 (11) 9.9659-9059";
 
 "frontTitle_value" = "Cloud Advisor & Specialist";
 
-"frontSocial_label" = "Social Networks";
+"frontSocial_label" = "🆔 Social Networks";
 "frontSocial_value" = "@avibrazil";
 
 "frontEmail_label" = "🚫 E-mail (avoid)";
 "frontEmail_value" = "avixⓐbr.ibm.com";
 
-"backTitle_label" = "What I do";
+"backTitle_label" = "☀️ What I do";
 "backTitle_value" = "IBM architect for agile solutions (☁Cloud, Bimodal IT, ☯DevOps) to enable Third Platform innovations for mobile, user engagement and analytics";
 "backTitle_attributedValue" = "IBM architect for agile solutions (☁Cloud, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">Bimodal IT</a>, <a href=\"https://en.wikipedia.org/wiki/DevOps\">☯DevOps</a>) to enable <a href=\"https://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> innovations for mobile, user engagement and analytics";
 
 
-"backURL_label" = "More about IBM solutions";
+"backURL_label" = "⚡️ More about IBM solutions";
 "backURL_value" = "http://IBM.com/";
 "backURL_attributedValue" = "<a href=\"http://IBM.com/\">IBM.com</a>";
 
-"backSocial_label" = "Find me on social networks as";
+"backSocial_label" = "💬 Find me on social networks as";
 "backSocial_attributedValue" = "@avibrazil\n🅸 <a href=\"https://linkedin.com/in/avibrazil\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/avibrazil\">Facebook</a>\n🆃 <a href=\"http://twitter.com/avibrazil\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+AviAlkalayBrazil\">Google Plus</a>";
 
 "backMobile_value" = "+55 (11) 99659-9059 (works with iMessage, FaceTime, WhatsApp and Hangouts)";
 
-"backPhone_label" = "Phone";
+"backPhone_label" = "☎️ Phone";
 "backPhone_value" = "+55 (11) 2132-2327";
 
 "backConference_label" = "Conference service";
@@ -35,16 +35,16 @@
 "backSIP_label" = "SIP & VoIP address";
 "backSIP_value" = "avibrazil.vmrⓐvidexio.com";
 
-"backAddress_label" = "Address";
+"backAddress_label" = "🏢 Address";
 "backAddress_value" = "R. Tutóia 1157 • São Paulo • Brazil";
 
-"backBitcoin_label" = "Send me ฿itcoins";
+"backBitcoin_label" = "💰 Send me ฿itcoins";
 "backBitcoin_value" = "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR";
 
 "backWarning_label" = "✋🏾 WARNING";
 "backWarning_value" = "E-mail is the worst way of contacting me. Please prefer WhatsApp, iMessage, FaceTime, Facebook and Hangouts with my mobile or e-mail address.";
 
-"backMore_label" = "My business card in 📇VCF and other formats";
+"backMore_label" = "📇 My business card in VCF and other formats";
 "backMore_value" = "https://Avi.Alkalay.net/card/";
 "backMore_attributedValue" = "• <a href=\"https://Avi.Alkalay.net/card/vcard.vcf\">Add me to your phone contacts</a>\n• <a href=\"https://Avi.Alkalay.net/card/\">See my business card in other formats</a>\n• Powered by <a href=\"https://github.com/avibrazil/digital-business-card\">Digital Business Card</a>";
 
