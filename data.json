@@ -7,65 +7,55 @@ var obj =
 	"emailchar": "ⓐ",
 	
 	"name": {
-		"first": "Avi",
-		"last": "Alkalay",
+		"first": "Alberto",
+		"last": "Miyazaki",
 	},
-	"title": "Cloud Advisor & Specialist",
+	"title": "Cloud Advisor",
 	"company": "IBM",
-	"department": "Cloud • Analytics • Mobile • User Engagement",
+	"department": "Cloud",
 	
 	"section": {
 		"phone": [
 			{
-				"value": "+55 (11) 99659-9059",
+				"value": "+55 (11) 98353-6848",
 				"label": "mobile",
 				"microformatTag": "mobile",
 				"vcfTag": "mobile" 
 			},
 			{
-				"value": "+55 (11) 2132-2327",
-				"label": "work"
+				"value": "+55 (11) 99969-2441",
+				"label": "work",
+				"microformatTag": "work",
+				"vcfTag": "work" 
 			},
 			{
-				"value": "avixⓐbr.ibm.com",
+				"value": "albertoⓐbr.ibm.com",
 				"label": "facetime"
 			},
 			{
-				"value": "avibrazil",
+				"value": "aamiyazaki",
 				"label": "skype"
-			},
-			{
-				"value": "avibrazil.vmrⓐvidexio.com",
-				"label": "SIP"
 			}
 		],
 
 		"mail": [
 			{
-				"value": "avixⓐbr.ibm.com",
+				"value": "albertoⓐbr.ibm.com",
 				"label": "work"
-			},
-			{
-				"value": "aviⓐunix.sh",
-				"label": "personal"
-			},
+			}
 		],
 		
 		"social": [
 			{
-				"value": "avibrazil",
+				"value": "aamiyazaki",
 				"label": "linkedin"
 			},
 			{
-				"value": "avibrazil",
-				"label": "facebook"
-			},
-			{
-				"value": "avibrazil",
+				"value": "aamiyazaki",
 				"label": "twitter"
 			},
 			{
-				"value": "+AviAlkalayBrazil",
+				"value": "+aamiyazaki",
 				"label": "google"
 			}
 		],
@@ -79,13 +69,6 @@ var obj =
 				"country": "Brazil",
 				"zip": "04007-900",
 				"geo": "-23.579975,-46.649241"
-			}
-		],
-		
-		"other": [
-			{
-				"label": "Bitcoin",
-				"value": "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR"
 			}
 		]
 	}	
