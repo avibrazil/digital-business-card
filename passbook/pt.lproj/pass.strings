@@ -1,16 +1,16 @@
 "frontHigh_label" = "Meu nome é";
-"frontHigh_value" = "Avi Alkalay";
+"frontHigh_value" = "Alberto Miyazaki";
 
 "frontMainPhone_label" = "iPhone";
-"frontMainPhone_value" = "+55 (11) 9.9659-9059";
+"frontMainPhone_value" = "+55 (11) 99969-2441";
 
 "frontTitle_value" = "Especialista e Consultor Cloud";
 
 "frontSocial_label" = "Redes Sociais";
-"frontSocial_value" = "@avibrazil";
+"frontSocial_value" = "@aamiyazaki";
 
 "frontEmail_label" = "🚫 E-mail (evite)";
-"frontEmail_value" = "avixⓐbr.ibm.com";
+"frontEmail_value" = "albertoⓐbr.ibm.com";
 
 "backTitle_label" = "O que eu faço";
 "backTitle_value" = "Arquiteto na IBM para soluções de agilidade (☁Cloud, TI Bimodal, ☯DevOps) que habilitam inovações na 3ª Plataforma para mobilidade, engajamento do usuário e analítica";
@@ -21,12 +21,12 @@
 "backURL_attributedValue" = "<a href=\"http://IBM.com/br\">IBM.com/BR</a>";
 
 "backSocial_label" = "Encontre-me nas redes sociais como";
-"backSocial_attributedValue" = "@avibrazil\n🅸 <a href=\"https://linkedin.com/in/avibrazil\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/avibrazil\">Facebook</a>\n🆃 <a href=\"http://twitter.com/avibrazil\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+AviAlkalayBrazil\">Google Plus</a>";
+"backSocial_attributedValue" = "@aamiyazaki\n🅸 <a href=\"https://linkedin.com/in/aamiyazaki\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/aamiyazaki\">Facebook</a>\n🆃 <a href=\"http://twitter.com/aamiyazaki\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+aamiyazaki\">Google Plus</a>";
 
-"backMobile_value" = "+55 (11) 99659-9059 (funciona com iMessage, FaceTime, WhatsApp e Hangouts)";
+"backMobile_value" = "+55 (11) 98353-6848 (funciona com iMessage, FaceTime, WhatsApp e Hangouts)";
 
 "backPhone_label" = "Telefone";
-"backPhone_value" = "+55 (11) 2132-2327";
+"backPhone_value" = "+55 (11) 99969-2441";
 
 "backConference_label" = "Serviço de conferencia";
 "backConference_value" = "https://Avi.Alkalay.net/meet";

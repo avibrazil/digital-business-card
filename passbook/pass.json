@@ -1,9 +1,9 @@
 {
   "passTypeIdentifier": "pass.net.alkalay.avi.digicard",
-  "serialNumber": "avixⓐbr.ibm.com",
+  "serialNumber": "albertoⓐbr.ibm.com",
 
-  "description": "Digital Business Card for Avi Alkalay",
-  "organizationName": "Avi Alkalay @ IBM",
+  "description": "Digital Business Card for Alberto Miyazaki",
+  "organizationName": "Alberto Miyazaki @ IBM",
   
   "backgroundColor": "rgb(255,255,255)",
   "foregroundColor": "rgb(31,112,193)",
@@ -150,11 +150,9 @@
     } 
   ],
   
-  "relevantDate": "2015-12-06T12:00:00-02:00",
-  
   "barcode": {
     "format": "PKBarcodeFormatQR",
-    "message": "https://Avi.Alkalay.net/card/",
+    "message": "https://Avi.Alkalay.net/.cards/alberto.pkpass",
     "messageEncoding": "UTF-8",
     "altText": "Passbook Scan"
   }
