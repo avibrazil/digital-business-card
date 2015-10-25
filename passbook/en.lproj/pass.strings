@@ -1,48 +1,35 @@
 "frontHigh_label" = "My name is";
 "frontHigh_value" = "Alberto Miyazaki";
 
-"frontMainPhone_label" = "Work";
-"frontMainPhone_value" = "+55 (11) 99969-2441";
+"frontMainPhone_label" = "Mobile";
+"frontMainPhone_value" = "+55 (11) 98353-6848";
 
 "frontTitle_value" = "Cloud Advisor";
 
 "frontSocial_label" = "Social Networks";
 "frontSocial_value" = "@aamiyazaki";
 
-"frontEmail_label" = "🚫 E-mail (avoid)";
+"frontEmail_label" = "E-mail";
 "frontEmail_value" = "albertoⓐbr.ibm.com";
 
 "backTitle_label" = "What I do";
-"backTitle_value" = "IBM architect for agile solutions (☁Cloud, Bimodal IT, ☯DevOps) to enable Third Platform innovations for mobile, user engagement and analytics";
-"backTitle_attributedValue" = "IBM architect for agile solutions (☁Cloud, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">Bimodal IT</a>, <a href=\"https://en.wikipedia.org/wiki/DevOps\">☯DevOps</a>) to enable <a href=\"https://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> innovations for mobile, user engagement and analytics";
-
+"backTitle_value" = "IBM architect for Cloud Solutions (☁Cloud, ☯DevOps, Two Speed IT) to enable Third Platform innovations for user engagement and IT transformation";
+"backTitle_attributedValue" = "IBM architect for Cloud Solutions (☁Cloud, <a href=\"https://en.wikipedia.org/wiki/DevOps\">☯DevOps</a>, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">Two Speed IT</a>) to enable <a href=\"https://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> innovations for user engagement and IT transformation;
 
 "backURL_label" = "More about IBM solutions";
 "backURL_value" = "http://IBM.com/";
 "backURL_attributedValue" = "<a href=\"http://IBM.com/\">IBM.com</a>";
 
 "backSocial_label" = "Find me on social networks as";
-"backSocial_attributedValue" = "@aamiyazaki\n🅸 <a href=\"https://linkedin.com/in/aamiyazaki\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/aamiyazaki\">Facebook</a>\n🆃 <a href=\"http://twitter.com/aamiyazaki\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+aamiyazaki\">Google Plus</a>";
+"backSocial_attributedValue" = "@aamiyazaki\n🅸 <a href=\"https://linkedin.com/in/aamiyazaki\">LinkedIn</a>\n🆃 <a href=\"http://twitter.com/aamiyazaki\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+aamiyazaki\">Google Plus</a>";
 
 "backMobile_value" = "+55 (11) 98353-6848 (works with iMessage, FaceTime, WhatsApp and Hangouts)";
 
 "backPhone_label" = "Phone";
 "backPhone_value" = "+55 (11) 99969-2441";
 
-"backConference_label" = "Conference service";
-"backConference_value" = "https://Avi.Alkalay.net/meet";
-
-"backSIP_label" = "SIP & VoIP address";
-"backSIP_value" = "avibrazil.vmrⓐvidexio.com";
-
 "backAddress_label" = "Address";
 "backAddress_value" = "R. Tutóia 1157 • São Paulo • Brazil";
-
-"backBitcoin_label" = "Send me ฿itcoins";
-"backBitcoin_value" = "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR";
-
-"backWarning_label" = "✋🏾 WARNING";
-"backWarning_value" = "E-mail is the worst way of contacting me. Please prefer WhatsApp, iMessage, FaceTime, Facebook and Hangouts with my mobile or e-mail address.";
 
 "backMore_label" = "My business card in 📇VCF and other formats";
 "backMore_value" = "https://Avi.Alkalay.net/card/";
@@ -51,9 +38,6 @@
 "backSignature_label" = "ℭ℩ƥℎℇř";
 "backSignature_value" = "Digitally signed by Avi Alkalay.";
 
-"backBlog_label" = "Blog";
-"backBlog_value" = "https://Avi.Alkalay.net/";
+"locationsRelevantText_value" = "Alberto works nearby";
 
-"locationsRelevantText_value" = "Avi works nearby";
-
-"beaconsRelevantText_value" = "Avi is close to you now";
+"beaconsRelevantText_value" = "Alberto is close to you now";

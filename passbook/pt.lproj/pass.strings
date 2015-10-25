@@ -2,46 +2,34 @@
 "frontHigh_value" = "Alberto Miyazaki";
 
 "frontMainPhone_label" = "iPhone";
-"frontMainPhone_value" = "+55 (11) 99969-2441";
+"frontMainPhone_value" = "+55 (11) 98353-6848";
 
-"frontTitle_value" = "Especialista e Consultor Cloud";
+"frontTitle_value" = "Arquiteto e Consultor Cloud";
 
 "frontSocial_label" = "Redes Sociais";
 "frontSocial_value" = "@aamiyazaki";
 
-"frontEmail_label" = "🚫 E-mail (evite)";
+"frontEmail_label" = "E-mail";
 "frontEmail_value" = "albertoⓐbr.ibm.com";
 
 "backTitle_label" = "O que eu faço";
-"backTitle_value" = "Arquiteto na IBM para soluções de agilidade (☁Cloud, TI Bimodal, ☯DevOps) que habilitam inovações na 3ª Plataforma para mobilidade, engajamento do usuário e analítica";
-"backTitle_attributedValue" = "Arquiteto na IBM para soluções de agilidade (☁Cloud, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">TI Bimodal</a>, <a href=\"https://pt.wikipedia.org/wiki/DevOps\">☯DevOps</a>) que habilitam inovações na <a href=\"http://en.wikipedia.org/wiki/Third_platform\">3ª Plataforma</a> para mobilidade, engajamento do usuário e analítica";
+"backTitle_value" = "Arquiteto na IBM para soluções de Cloud (☁Cloud, ☯DevOps, TI Duas Velocidades) que habilitam inovações na 3ª Plataforma para engajamento de clientes e Tranformação de TI";
+"backTitle_attributedValue" = "Arquiteto na IBM para soluções de Cloud (☁Cloud, , <a href=\"https://pt.wikipedia.org/wiki/DevOps\">☯DevOps</a>, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">TI Duas Velocidades</a>) que habilitam inovações na <a href=\"http://en.wikipedia.org/wiki/Third_platform\">3ª Plataforma</a> para engajamento de clientes e Tranformação de TI;
 
 "backURL_label" = "Mais detalhes sobre as soluções da IBM";
 "backURL_value" = "http://IBM.com/BR";
 "backURL_attributedValue" = "<a href=\"http://IBM.com/br\">IBM.com/BR</a>";
 
 "backSocial_label" = "Encontre-me nas redes sociais como";
-"backSocial_attributedValue" = "@aamiyazaki\n🅸 <a href=\"https://linkedin.com/in/aamiyazaki\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/aamiyazaki\">Facebook</a>\n🆃 <a href=\"http://twitter.com/aamiyazaki\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+aamiyazaki\">Google Plus</a>";
+"backSocial_attributedValue" = "@aamiyazaki\n🅸 <a href=\"https://linkedin.com/in/aamiyazaki\">LinkedIn</a>\n🆃 <a href=\"http://twitter.com/aamiyazaki\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+aamiyazaki\">Google Plus</a>";
 
 "backMobile_value" = "+55 (11) 98353-6848 (funciona com iMessage, FaceTime, WhatsApp e Hangouts)";
 
 "backPhone_label" = "Telefone";
 "backPhone_value" = "+55 (11) 99969-2441";
 
-"backConference_label" = "Serviço de conferencia";
-"backConference_value" = "https://Avi.Alkalay.net/meet";
-
-"backSIP_label" = "Endereço para VoIP e SIP";
-"backSIP_value" = "avibrazil.vmrⓐvidexio.com";
-
 "backAddress_label" = "Endereço";
 "backAddress_value" = "R. Tutóia 1157 • São Paulo • Brasil";
-
-"backBitcoin_label" = "Mande-me ฿itcoins";
-"backBitcoin_value" = "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR";
-
-"backWarning_label" = "✋🏾 ATENÇÃO";
-"backWarning_value" = "E-mail é a pior forma de me contactar. Por favor prefira WhatsApp, iMessage, FaceTime, Facebook e Hangouts com meu telefone ou endereço de e-mail.";
 
 "backMore_label" = "Meu cartão de visita em 📇VCF e outros formatos";
 "backMore_value" = "https://Avi.Alkalay.net/card/";
@@ -50,9 +38,6 @@
 "backSignature_label" = "oʇdıɹƆ";
 "backSignature_value" = "Assinado digitalmente por Avi Alkalay.";
 
-"backBlog_label" = "Blógue";
-"backBlog_value" = "https://Avi.Alkalay.net/";
+"locationsRelevantText_value" = "Alberto trabalha perto daqui";
 
-"locationsRelevantText_value" = "Avi trabalha perto daqui";
-
-"beaconsRelevantText_value" = "Avi está perto de você";
+"beaconsRelevantText_value" = "Alberto está perto de você";
