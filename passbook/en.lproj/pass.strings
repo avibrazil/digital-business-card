@@ -1,12 +1,12 @@
 "frontHigh_label" = "My name is";
 "frontHigh_value" = "Avi Alkalay";
 
-"frontMainPhone_label" = "📱 iPhone";
+"frontMainPhone_label" = "iPhone";
 "frontMainPhone_value" = "+55 (11) 9.9659-9059";
 
-"frontTitle_value" = "Cloud Advisor & Specialist";
+"frontTitle_value" = "DevOps & Cloud Advisor";
 
-"frontSocial_label" = "🆔 Social Networks";
+"frontSocial_label" = "Social Networks";
 "frontSocial_value" = "@avibrazil";
 
 "frontEmail_label" = "🚫 E-mail (avoid)";
