@@ -21,7 +21,7 @@ Non-Wallet users (Android, Windows etc) can still scan the same code and get poi
 ![Non-Wallet users see this on their browsers](https://cloud.githubusercontent.com/assets/3484242/10709944/205147f2-7a20-11e5-8244-584473785f47.png)
 
 The rendered page shows your personal data as e-mail and phone. But it is safe from e-mail
-crawlers because the HTML is just a template that JavaScript on visitor's browser mixes with the actual data.
+crawlers because the HTML is just a template that JavaScript code on visitor's browser mixes with the actual data.
 There is no server-side engine, no PHP, no databases and nothing dynamic is required on the web server side. All are plain static files.
 
 Usage
