@@ -74,6 +74,7 @@ The card/pass on Android and Windows Mobile
 
 I heard Windows Mobile now supports Wallet passes natively. Android user can install third party Wallet apps such as these:
 
+https://play.google.com/store/apps/details?id=com.passesalliance.wallet&hl=en
 https://play.google.com/store/apps/details?id=com.sec.android.wallet
 https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel
 https://play.google.com/store/apps/details?id=tw.com.freedi.passbook
