@@ -10,7 +10,11 @@ var obj =
 		"first": "Alberto",
 		"last": "Miyazaki",
 	},
+<<<<<<< HEAD
 	"title": "Cloud Advisor",
+=======
+	"title": "Full stack web & mobile solutions architect, Cloud & DevOps Advisor",
+>>>>>>> avibrazil/master
 	"company": "IBM",
 	"department": "Cloud",
 	

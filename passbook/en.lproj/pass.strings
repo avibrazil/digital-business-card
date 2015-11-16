@@ -4,7 +4,11 @@
 "frontMainPhone_label" = "Mobile";
 "frontMainPhone_value" = "+55 (11) 98353-6848";
 
+<<<<<<< HEAD
 "frontTitle_value" = "Cloud Advisor";
+=======
+"frontTitle_value" = "DevOps & Cloud Advisor";
+>>>>>>> avibrazil/master
 
 "frontSocial_label" = "Social Networks";
 "frontSocial_value" = "@aamiyazaki";
@@ -12,26 +16,59 @@
 "frontEmail_label" = "E-mail";
 "frontEmail_value" = "albertoⓐbr.ibm.com";
 
+<<<<<<< HEAD
 "backTitle_label" = "What I do";
 "backTitle_value" = "IBM architect for Cloud Solutions (☁Cloud, ☯DevOps, Two Speed IT) to enable Third Platform innovations for user engagement and IT transformation";
 "backTitle_attributedValue" = "IBM architect for Cloud Solutions (☁Cloud, <a href=\"https://en.wikipedia.org/wiki/DevOps\">☯DevOps</a>, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">Two Speed IT</a>) to enable <a href=\"https://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> innovations for user engagement and IT transformation";
+=======
+"backTitle_label" = "☀️ What I do";
+"backTitle_value" = "IBM architect for agile solutions (☁Cloud, Bimodal IT, ☯DevOps) to enable Third Platform innovations for mobile, user engagement and analytics";
+"backTitle_attributedValue" = "IBM architect for agile solutions (☁Cloud, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">Bimodal IT</a>, <a href=\"https://en.wikipedia.org/wiki/DevOps\">☯DevOps</a>) to enable <a href=\"https://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> innovations for mobile, user engagement and analytics";
 
-"backURL_label" = "More about IBM solutions";
+>>>>>>> avibrazil/master
+
+"backURL_label" = "⚡️ More about IBM solutions";
 "backURL_value" = "http://IBM.com/";
 "backURL_attributedValue" = "<a href=\"http://IBM.com/\">IBM.com</a>";
 
+<<<<<<< HEAD
 "backSocial_label" = "Find me on social networks as";
 "backSocial_attributedValue" = "@aamiyazaki\n🅸 <a href=\"https://linkedin.com/in/aamiyazaki\">LinkedIn</a>\n🆃 <a href=\"http://twitter.com/aamiyazaki\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+aamiyazaki\">Google Plus</a>";
+=======
+"backSocial_label" = "💬 Find me on social networks as";
+"backSocial_attributedValue" = "@avibrazil\n🅸 <a href=\"https://linkedin.com/in/avibrazil\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/avibrazil\">Facebook</a>\n🆃 <a href=\"http://twitter.com/avibrazil\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+AviAlkalayBrazil\">Google Plus</a>";
+>>>>>>> avibrazil/master
 
 "backMobile_value" = "+55 (11) 98353-6848 (works with iMessage, FaceTime, WhatsApp and Hangouts)";
 
+<<<<<<< HEAD
 "backPhone_label" = "Phone";
 "backPhone_value" = "+55 (11) 99969-2441";
+=======
+"backPhone_label" = "☎️ Phone";
+"backPhone_value" = "+55 (11) 2132-2327";
 
-"backAddress_label" = "Address";
+"backConference_label" = "Conference service";
+"backConference_value" = "https://Avi.Alkalay.net/meet";
+
+"backSIP_label" = "SIP & VoIP address";
+"backSIP_value" = "avibrazil.vmrⓐvidexio.com";
+>>>>>>> avibrazil/master
+
+"backAddress_label" = "🏢 Address";
 "backAddress_value" = "R. Tutóia 1157 • São Paulo • Brazil";
 
+<<<<<<< HEAD
 "backMore_label" = "My business card in 📇VCF and other formats";
+=======
+"backBitcoin_label" = "💰 Send me ฿itcoins";
+"backBitcoin_value" = "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR";
+
+"backWarning_label" = "✋🏾 WARNING";
+"backWarning_value" = "E-mail is the worst way of contacting me. Please prefer WhatsApp, iMessage, FaceTime, Facebook and Hangouts with my mobile or e-mail address.";
+
+"backMore_label" = "📇 My business card in VCF and other formats";
+>>>>>>> avibrazil/master
 "backMore_value" = "https://Avi.Alkalay.net/card/";
 "backMore_attributedValue" = "• <a href=\"https://Avi.Alkalay.net/card/vcard.vcf\">Add me to your phone contacts</a>\n• <a href=\"https://Avi.Alkalay.net/card/\">See my business card in other formats</a>\n• Powered by <a href=\"https://github.com/avibrazil/digital-business-card\">Digital Business Card</a>";
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Creates a signed Apple Passbook from a directory tree according to
+# Creates a signed Apple Passbook Ticket from a directory tree according to
 # documentation at https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/PassKit_PG/
 #
 # This script works on Mac and Linux. If Windows, you are on your own.

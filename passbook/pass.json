@@ -1,6 +1,10 @@
 {
   "passTypeIdentifier": "pass.net.alkalay.avipaulo.digicard",
+<<<<<<< HEAD
   "serialNumber": "albertoⓐbr.ibm.com",
+=======
+  "serialNumber": "avixⓐbr.ibm.com",
+>>>>>>> avibrazil/master
 
   "description": "Digital Business Card for Alberto Miyazaki",
   "organizationName": "Alberto Miyazaki @ IBM",
