@@ -82,29 +82,9 @@
         "value": "backPhone_value"
       },
       {
-        "key": "backConference",
-        "label": "backConference_label",
-        "value": "backConference_value"
-      },
-      {
-        "key": "backSIP",
-        "label": "backSIP_label",
-        "value": "backSIP_value"
-      },
-      {
-        "key": "backBlog",
-        "label": "backBlog_label",
-        "value": "backBlog_value"
-      },
-      {
         "key": "backAddress",
         "label": "backAddress_label",
         "value": "backAddress_value"
-      },
-      {
-        "key": "backBitcoin",
-        "label": "backBitcoin_label",
-        "value": "backBitcoin_value"
       },
       {
         "key": "backMore",
@@ -112,11 +92,6 @@
         "value": "backMore_value",
         "attributedValue": "backMore_attributedValue"
       },      
-      {
-        "key": "backWarning",
-        "label": "backWarning_label",
-        "value": "backWarning_value"
-      },
       {
         "key": "backEmail",
         "label": "frontEmail_label",
