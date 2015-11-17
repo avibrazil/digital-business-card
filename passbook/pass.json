@@ -128,7 +128,7 @@
   
   "barcode": {
     "format": "PKBarcodeFormatQR",
-    "message": "https://aamiyazaki.net.br/card/.cards/passbook.pkpass",
+    "message": "https://aamiyazaki.net.br/card/",
     "messageEncoding": "UTF-8",
     "altText": "Passbook Scan"
   }
