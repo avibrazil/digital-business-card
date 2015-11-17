@@ -16,15 +16,10 @@
 "backTitle_value" = "IBM architect for Cloud Solutions (☁Cloud, ☯DevOps, Two Speed IT) to enable Third Platform innovations for user engagement and IT transformation";
 "backTitle_attributedValue" = "IBM architect for Cloud Solutions (☁Cloud, <a href=\"https://en.wikipedia.org/wiki/DevOps\">☯DevOps</a>, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">Two Speed IT</a>) to enable <a href=\"https://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> innovations for user engagement and IT transformation";
 
-"backTitle_label" = "☀️ What I do";
-"backTitle_value" = "IBM architect for agile solutions (☁Cloud, Bimodal IT, ☯DevOps) to enable Third Platform innovations for mobile, user engagement and analytics";
-"backTitle_attributedValue" = "IBM architect for agile solutions (☁Cloud, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">Bimodal IT</a>, <a href=\"https://en.wikipedia.org/wiki/DevOps\">☯DevOps</a>) to enable <a href=\"https://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> innovations for mobile, user engagement and analytics";
-
 "backURL_label" = "⚡️ More about IBM solutions";
 "backURL_value" = "http://IBM.com/";
 "backURL_attributedValue" = "<a href=\"http://IBM.com/\">IBM.com</a>";
 
-<<<<<<< HEAD
 "backSocial_label" = "💬 Find me on social networks as";
 "backSocial_attributedValue" = "@aamiyazaki\n🅸 <a href=\"https://linkedin.com/in/aamiyazaki\">LinkedIn</a>\n🆃 <a href=\"http://twitter.com/aamiyazaki\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+aamiyazaki\">Google Plus</a>";
 

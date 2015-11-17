@@ -115,17 +115,7 @@
       "longitude": 0,
       "relevantText": "locationsRelevantText_value"
     }
-  ],
-  
-  "beacons": [
-    {
-      "relevantText": "beaconsRelevantText_value",
-      "proximityUUID": "5a4bcfce-174e-4bac-a814-092e77f6b7e5",
-      "major": "1",
-      "minor": "1"
-    } 
-  ],
-  
+  ], 
   "barcode": {
     "format": "PKBarcodeFormatQR",
     "message": "https://aamiyazaki.net.br/card/",
