@@ -1,10 +1,7 @@
 {
   "passTypeIdentifier": "pass.net.alkalay.avipaulo.digicard",
-<<<<<<< HEAD
+
   "serialNumber": "albertoⓐbr.ibm.com",
-=======
-  "serialNumber": "avixⓐbr.ibm.com",
->>>>>>> avibrazil/master
 
   "description": "Digital Business Card for Alberto Miyazaki",
   "organizationName": "Alberto Miyazaki @ IBM",
@@ -131,7 +128,7 @@
   
   "barcode": {
     "format": "PKBarcodeFormatQR",
-    "message": "https://Avi.Alkalay.net/.cards/alberto.pkpass",
+    "message": "https://aamiyazaki.net.br/card/.cards/passbook.pkpass",
     "messageEncoding": "UTF-8",
     "altText": "Passbook Scan"
   }
