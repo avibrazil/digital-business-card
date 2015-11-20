@@ -2,6 +2,6 @@
 passbook/manifest.json
 passbook/signature
 passbook.pkpass
-util/pass.net.alkalay.avi.digicard-cert.p12
+util/pass.net.alkalay.avi*.digicard-cert.p12
 passbookscreenshot.png
 passbook.pkpass
