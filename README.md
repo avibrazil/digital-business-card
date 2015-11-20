@@ -27,9 +27,9 @@ There is no server-side engine, no PHP, no databases and nothing dynamic is requ
 Usage
 =====
 
-1. For the HTML page with your digital business card, edit the data.json file with your data.
-2. Put your square photo on photo.jpg file. 
-3. Test it all by simply viewing the index.html file on you browser. No web server is required for testing.
+1. For the HTML page with your digital business card, edit the `data.json` file with your data.
+2. Put your square photo on `photo.jpg` file. 
+3. Test it all by simply viewing the `index.html` file on you browser. No web server is required for testing.
 4. Upload the following files to your web server:
   1. `.htaccess` (contains logic for pass delivery and mime-types definitions)
   2. `resources` (the entire directory with icons and images)
@@ -74,11 +74,11 @@ The card/pass on Android and Windows Mobile
 
 I heard Windows Mobile now supports Wallet passes natively. Android user can install third party Wallet apps such as these:
 
-https://play.google.com/store/apps/details?id=com.passesalliance.wallet&hl=en
-https://play.google.com/store/apps/details?id=com.sec.android.wallet
-https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel
-https://play.google.com/store/apps/details?id=tw.com.freedi.passbook
-https://play.google.com/store/apps/details?id=com.attidomobile.passwallet
+- https://play.google.com/store/apps/details?id=com.passesalliance.wallet&hl=en
+- https://play.google.com/store/apps/details?id=com.sec.android.wallet
+- https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel
+- https://play.google.com/store/apps/details?id=tw.com.freedi.passbook
+- https://play.google.com/store/apps/details?id=com.attidomobile.passwallet
 
 I've tested some of those and concluded they don't work very well. Final conclusion is that Windows and Android users can still scan my card/pass QR, but they'll get only the fallback web page with a link to download my VCF.
 
