@@ -38,7 +38,7 @@ Usage
   5. `data.json`
   6. `vcard.vcf` (your business card as a VCF file, supported by all address book software)
   7. `passbook.pkpass` (your business card as a Wallet pass)
-  8. `passbookscreenshot.png` (to make your URL look nice when sharing on Facebook)
+  8. `walletcard.png` (to make your URL look nice when sharing on Facebook)
 5. Make it all available in a nice URL on your web site. Mine is https://Avi.Alkalay.net/card/
 
 You can get a `vcard.vcf` file creating a contact of yourself on your smartphone and then sending it to you attached on an e-mail.
