@@ -156,6 +156,6 @@
     "format": "PKBarcodeFormatQR",
     "message": "https://Avi.Alkalay.net/card/",
     "messageEncoding": "UTF-8",
-    "altText": "Passbook Scan"
+    "altText": "Scan with iPhone Wallet app"
   }
 }
