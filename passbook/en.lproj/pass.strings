@@ -13,16 +13,15 @@
 "frontEmail_value" = "avixⓐbr.ibm.com";
 
 "backTitle_label" = "☀️ What I do";
-"backTitle_value" = "IBM architect for agile solutions (☁Cloud, Bimodal IT, ☯DevOps) to enable Third Platform innovations for mobile, user engagement and analytics";
-"backTitle_attributedValue" = "IBM architect for agile solutions (☁Cloud, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">Bimodal IT</a>, <a href=\"https://en.wikipedia.org/wiki/DevOps\">☯DevOps</a>) to enable <a href=\"https://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> innovations for mobile, user engagement and analytics";
+"backTitle_value" = "IBM advisor for agile solutions (☁Cloud, Bimodal IT, ☯DevOps) to enable Third Platform innovations for mobile, user engagement and analytics";
+"backTitle_attributedValue" = "IBM advisor for agile solutions (☁Cloud, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">Bimodal IT</a>, <a href=\"https://en.wikipedia.org/wiki/DevOps\">☯DevOps</a>) to enable <a href=\"https://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> innovations for mobile, user engagement and analytics";
 
-
-"backURL_label" = "⚡️ More about IBM solutions";
-"backURL_value" = "http://IBM.com/";
-"backURL_attributedValue" = "<a href=\"http://IBM.com/\">IBM.com</a>";
+"backURL_label" = "⚡️ Agile, Analytics and Mobile solutions that I love";
+"backURL_value" = "Bluemix (PaaS), SoftLayer (IaaS), IBM Cloud Orchestrator (powered by OpenStack), urban{code}, Watson, MobileFirst";
+"backURL_attributedValue" = "<a href=\"https://bluemix.net/\">Bluemix</a> (PaaS), <a href=\"http://www.softlayer.com/\">SoftLayer</a> (IaaS), <a href=\"http://ibm.com/software/products/en/ibm-cloud-orchestrator\">IBM Cloud Orchestrator</a> (powered by <a href=\"https://www.openstack.org\">OpenStack</a>), <a href=\"https://developer.ibm.com/urbancode/\">urban{code}</a>, <a href=\"http://ibm.com/smarterplanet/us/en/ibmwatson/\">Watson</a>, <a href=\"http://www.ibm.com/mobilefirst/\">MobileFirst</a>";
 
 "backSocial_label" = "💬 Find me on social networks as";
-"backSocial_attributedValue" = "@avibrazil\n🅸 <a href=\"https://linkedin.com/in/avibrazil\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/avibrazil\">Facebook</a>\n🆃 <a href=\"http://twitter.com/avibrazil\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+AviAlkalayBrazil\">Google Plus</a>";
+"backSocial_attributedValue" = "🅸 <a href=\"https://linkedin.com/in/avibrazil\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/avibrazil\">Facebook</a>\n🆃 <a href=\"http://twitter.com/avibrazil\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+AviAlkalayBrazil\">Google Plus</a>\n• All other: avibrazil";
 
 "backMobile_value" = "+55 (11) 99659-9059 (works with iMessage, FaceTime, WhatsApp and Hangouts)";
 
@@ -46,7 +45,11 @@
 
 "backMore_label" = "📇 My business card in VCF and other formats";
 "backMore_value" = "https://Avi.Alkalay.net/card/";
-"backMore_attributedValue" = "• <a href=\"https://Avi.Alkalay.net/card/vcard.vcf\">Add me to your phone contacts</a>\n• <a href=\"https://Avi.Alkalay.net/card/\">See my business card in other formats</a>\n• Powered by <a href=\"https://github.com/avibrazil/digital-business-card\">Digital Business Card</a>";
+"backMore_attributedValue" = "• <a href=\"https://Avi.Alkalay.net/card/vcard.vcf\">Add me to your phone contacts</a>\n\n• <a href=\"https://Avi.Alkalay.net/card/\">See my business card in other digital formats</a>";
+
+"backPoweredBy_label" = "Powered by";
+"backPoweredBy_value" = "The Digital Business Card project on GitHub: https://github.com/avibrazil/digital-business-card";
+"backPoweredBy_attributedValue" = "The <a href=\"https://github.com/avibrazil/digital-business-card\">Digital Business Card</a> project on GitHub";
 
 "backSignature_label" = "ℭ℩ƥℎℇř";
 "backSignature_value" = "Digitally signed by Avi Alkalay.";

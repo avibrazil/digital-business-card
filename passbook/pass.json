@@ -126,6 +126,12 @@
         "key": "backSignature",
         "label": "backSignature_label",
         "value": "backSignature_value"
+      },
+      {
+        "key": "backPoweredBy",
+        "label": "backPoweredBy_label",
+        "value": "backPoweredBy_value",
+		"attributedValue": "backPoweredBy_attributedValue"
       }
     ]
   },
