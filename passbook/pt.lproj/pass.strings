@@ -13,22 +13,22 @@
 "frontEmail_value" = "avixⓐbr.ibm.com";
 
 "backTitle_label" = "☀️ O que eu faço";
-"backTitle_value" = "Consultor na IBM para soluções de agilidade (☁Cloud, TI Bimodal, ☯DevOps) que habilitam inovações na 3ª Plataforma para mobilidade, engajamento do usuário e analítica";
-"backTitle_attributedValue" = "Arquiteto na IBM para soluções de agilidade (☁Cloud, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">TI Bimodal</a>, <a href=\"https://pt.wikipedia.org/wiki/DevOps\">☯DevOps</a>) que habilitam inovações na <a href=\"http://en.wikipedia.org/wiki/Third_platform\">3ª Plataforma</a> para mobilidade, engajamento do usuário e analítica";
+"backTitle_value" = "Consultor na IBM para soluções de agilidade (☁Cloud, ⚭TI Bimodal, ☯DevOps) que habilitam inovações na 3ª Plataforma para mobilidade, engajamento do usuário e analítica";
+"backTitle_attributedValue" = "Arquiteto na IBM para soluções de agilidade (☁Cloud, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">⚭TI Bimodal</a>, <a href=\"https://pt.wikipedia.org/wiki/DevOps\">☯DevOps</a>) que habilitam inovações na <a href=\"http://en.wikipedia.org/wiki/Third_platform\">3ª Plataforma</a> para mobilidade, engajamento do usuário e analítica";
 
-"backURL_label" = "⚡️ Soluções de Agilidade, Analítica e Mobilidade que eu adoro";
+"backURL_label" = "❤️ Soluções de Agilidade, Analítica e Mobilidade que eu adoro";
 "backURL_value" = "Bluemix (PaaS), SoftLayer (IaaS), IBM Cloud Orchestrator (powered by OpenStack), urban{code}, Watson, MobileFirst";
 "backURL_attributedValue" = "<a href=\"https://bluemix.net/\">Bluemix</a> (PaaS), <a href=\"http://www.softlayer.com/\">SoftLayer</a> (IaaS), <a href=\"http://ibm.com/software/products/en/ibm-cloud-orchestrator\">IBM Cloud Orchestrator</a> (powered by <a href=\"https://www.openstack.org\">OpenStack</a>), <a href=\"https://developer.ibm.com/urbancode/\">urban{code}</a>, <a href=\"http://ibm.com/smarterplanet/us/en/ibmwatson/\">Watson</a>, <a href=\"http://www.ibm.com/mobilefirst/\">MobileFirst</a>";
 
 "backSocial_label" = "💬 Encontre-me nas redes sociais como";
-"backSocial_attributedValue" = "🅸 <a href=\"https://linkedin.com/in/avibrazil\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/avibrazil\">Facebook</a>\n🆃 <a href=\"http://twitter.com/avibrazil\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+AviAlkalayBrazil\">Google Plus</a>\n• Todas as outras: avibrazil";
+"backSocial_attributedValue" = "🅸 <a href=\"https://linkedin.com/in/avibrazil\">LinkedIn</a>\n🅵 <a href=\"http://facebook.com/avibrazil\">Facebook</a>\n🆃 <a href=\"http://twitter.com/avibrazil\">Twitter</a>\n🅶 <a href=\"https://plus.google.com/+AviAlkalayBrazil\">Google Plus</a>\n✚ Todas as outras: avibrazil";
 
 "backMobile_value" = "+55 (11) 99659-9059 (funciona com iMessage, FaceTime, WhatsApp e Hangouts)";
 
 "backPhone_label" = "☎️ Telefone";
 "backPhone_value" = "+55 (11) 2132-2327";
 
-"backConference_label" = "Serviço de conferencia";
+"backConference_label" = "Serviço de conferência";
 "backConference_value" = "https://Avi.Alkalay.net/meet";
 
 "backSIP_label" = "Endereço para VoIP e SIP";
@@ -40,12 +40,12 @@
 "backBitcoin_label" = "💰 Mande-me ฿itcoins";
 "backBitcoin_value" = "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR";
 
-"backWarning_label" = "✋🏾 ATENÇÃO";
+"backWarning_label" = "✋ ATENÇÃO";
 "backWarning_value" = "E-mail é a pior forma de me contactar. Por favor prefira WhatsApp, iMessage, FaceTime, Facebook e Hangouts com meu telefone ou endereço de e-mail.";
 
 "backMore_label" = "📇 Meu cartão de visita em VCF e outros formatos";
 "backMore_value" = "https://Avi.Alkalay.net/card/";
-"backMore_attributedValue" = "• <a href=\"https://Avi.Alkalay.net/card/vcard.vcf\">Adicione-me aos contatos</a>\n\n• <a href=\"https://Avi.Alkalay.net/card/\">Veja meu cartão de visita em outros formatos</a>";
+"backMore_attributedValue" = "• <a href=\"https://Avi.Alkalay.net/card/vcard.vcf\">Adicione-me aos contatos</a>\n• <a href=\"https://Avi.Alkalay.net/card/\">Veja meu cartão de visita em outros formatos</a>";
 
 "backPoweredBy_label" = "Powered by";
 "backPoweredBy_value" = "O projeto Digital Business Card project no GitHub: https://github.com/avibrazil/digital-business-card";
