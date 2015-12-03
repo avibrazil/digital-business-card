@@ -186,10 +186,10 @@ Made in Brazil
 	
 		<div class="container buttons">
 			<div class="row">
-				<div class="col-xs-6 col-md-6 column">
+				<div class="col-xs-6 col-md-6 column" id="address-book-badge">
 					<p class="text-center"><a href="vcard.vcf"><img src="resources/img/add-to-addressbook-badge.png" style="width: 130px" alt="Add to address book"/></a></p>
 				</div>
-				<div class="col-xs-6 col-md-6 column">
+				<div class="col-xs-6 col-md-6 column" id="wallet-badge">
 					<p class="text-center"><a href="passbook.pkpass"><img src="resources/img/add-to-wallet-badge.png" style="width: 130px" alt="Add to Wallet"/></a></p>
 				</div>
 			</div>
@@ -214,7 +214,26 @@ Made in Brazil
   
   
   
-  <script><!--		
+  <script><!--
+  		function toggleWalletBadge() {
+  			var badgePass="resources/img/add-to-wallet-badge.png";
+  			var linkPass="passbook.pkpass";
+
+  			var badgeApp="resources/img/get-pass2u-badge.png";
+  			var linkApp="https://play.google.com/store/apps/details?id=com.passesalliance.wallet";
+  			
+  			if (/(android)/i.test(navigator.userAgent)) {
+  				$("#wallet-badge img").each(function() {
+  					$(this).fadeTo(3000, 1, "linear", function() {
+						$(this).attr("src",badgeApp);
+						$("#wallet-badge a"  ).each(function() {$(this).attr("href",linkApp)});  				
+					})
+				});
+			}
+  		}
+  		
+  		
+  		
 		$(document).ready(function() {		
 			// Check HTML <head>  to see how we loded data.json
 			
@@ -223,6 +242,8 @@ Made in Brazil
 			obj = window.JSON.parse(sobj);
 			
 			document.title=obj.name.first + " " + obj.name.last + ": " + obj.title;
+			
+			toggleWalletBadge();
 			
 			var results = document.getElementById("sections");
 			
