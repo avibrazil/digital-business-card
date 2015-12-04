@@ -105,6 +105,10 @@ Made in Brazil
 			overflow-x: auto;
 		}
 		
+		#qr-code img {
+			width: 100%;
+		}
+		
 		#footer hr {
 			width: 90%;
 			border-color: grey;
@@ -197,7 +201,20 @@ Made in Brazil
 
 		<div class="container gap"></div>
 	
-		<div id="sections">
+		<div id="sections-container">
+			<div id="sections">
+			</div>
+			
+			<div class="container" id="qr-code">
+				<ul class="list-group">
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-xs-12 column"><img src="qr-code.png" alt="QR Code" title="QR Code"/></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
 		</div>
 		
 		<div id="footer">
@@ -232,7 +249,16 @@ Made in Brazil
 			}
   		}
   		
-  		
+  		function checkQRCode() {
+  			var i = document.createElement('img');
+
+			i.onerror = function() {
+				// image did not load
+				$("#qr-code").remove();
+			}
+
+			i.src = $("#qr-code img").attr("src");
+  		}
   		
 		$(document).ready(function() {		
 			// Check HTML <head>  to see how we loded data.json
@@ -244,6 +270,7 @@ Made in Brazil
 			document.title=obj.name.first + " " + obj.name.last + ": " + obj.title;
 			
 			toggleWalletBadge();
+			checkQRCode();
 			
 			var results = document.getElementById("sections");
 			
