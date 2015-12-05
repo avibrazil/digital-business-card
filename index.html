@@ -101,6 +101,10 @@ Made in Brazil
 			font-size: 1em;	
 		}
 		
+		#social .label img {
+			height: 1.5em;
+		}
+		
 		.value {
 			overflow-x: auto;
 		}
@@ -385,7 +389,7 @@ Made in Brazil
 
 	<script type="text/html" id="section_social_template">
 		<% if (section.length) { %>
-			<div class="container" id="mail">
+			<div class="container" id="social">
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) {
 						var url;
@@ -410,12 +414,10 @@ Made in Brazil
 					
 					 %>
 						<li class="list-group-item">
-							<div class="">
-								<div class="row">
-									<div class="col-xs-3 column label"><%=label%></div>
-									<div class="col-xs-9 column value">
-										<a href="<%=url%>"><%=section[i].value%></a>
-									</div>
+							<div class="row">
+								<div class="col-xs-3 column label"><%=label%></div>
+								<div class="col-xs-9 column value">
+									<a href="<%=url%>"><%=section[i].value%></a>
 								</div>
 							</div>
 						</li>
