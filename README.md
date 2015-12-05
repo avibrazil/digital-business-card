@@ -29,8 +29,9 @@ Usage
 
 1. For the HTML page with your digital business card, edit the `data.json` file with your data.
 2. Put your square photo on `photo.jpg` file. 
+3. Put a QR code on `qr-code.png`. It can be a simple link to your page (same QR that goes into you Wallet app ticket) or a more complex QR containing your complete data.
 3. Test it all by simply viewing the `index.html` file on you browser. No web server is required for testing.
-4. Upload the following files to your web server:
+4. Upload the following files to your web server respecting the directory structure in the source:
   1. `.htaccess` (contains logic for pass delivery and mime-types definitions)
   2. `resources` (the entire directory with icons and images)
   3. `index.html`

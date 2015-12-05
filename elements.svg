@@ -857,13 +857,13 @@
     <image
        sodipodi:absref="/Users/aviram/src/digital-business-card/passbookscreenshot.png"
        xlink:href="passbookscreenshot.png"
-       y="-425.63782"
-       x="840"
-       id="image3472"
-       style="image-rendering:optimizeSpeed"
-       preserveAspectRatio="none"
+       width="1242"
        height="2208"
-       width="1242" />
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       id="image3472"
+       x="840"
+       y="-425.63782" />
     <rect
        style="stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="walletcard-screenshot-mask"
@@ -924,8 +924,8 @@
       <g
          transform="matrix(1.3011151,0,0,1.3011151,-2674.1089,-753.2213)"
          id="opaque-qr-code"
-         inkscape:export-xdpi="89.996361"
-         inkscape:export-ydpi="89.996361">
+         inkscape:export-xdpi="41.139999"
+         inkscape:export-ydpi="41.139999">
         <rect
            style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="rect6926"
