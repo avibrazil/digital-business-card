@@ -13,7 +13,12 @@ var obj =
 	"title": "Full stack web & mobile solutions architect, Cloud & DevOps Advisor",
 	"company": "IBM",
 	"department": "Cloud • Analytics • Mobile • User Engagement",
-		
+
+	"columns": {
+		"1": ["phone", "publications", "address", "mail"],
+		"2": ["social", "",            "",        "other", "qrcode"]
+	},
+	
 	"section": {
 		"phone": [
 			{
@@ -67,6 +72,24 @@ var obj =
 			{
 				"value": "+AviAlkalayBrazil",
 				"label": "google"
+			}
+		],
+		
+		"publications": [
+			{
+				"value": "Avi.Alkalay.net",
+				"label": "blog",
+				"protocol": "https"
+			},
+			{
+				"value": "fb.com/AviOnInformationTechnology",
+				"label": "facebook",
+				"protocol": "https"
+			},
+			{
+				"value": "Avi.Alkalay.net/bio",
+				"label": "bio",
+				"protocol": "https"
 			}
 		],
 		

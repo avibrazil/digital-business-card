@@ -87,7 +87,7 @@ Made in Brazil
 		
 		.photo {
 			/* border: 2px solid black; */
-			box-shadow: 2px 2px 0 0 white, 0 0 2px 2px black;
+			/* box-shadow: 2px 2px 0 0 white, 0 0 2px 2px black; */
 		}
 		
 		.gap {
@@ -102,7 +102,9 @@ Made in Brazil
 		}
 		
 		#social .label img {
-			height: 1.5em;
+			height: 1em;
+			margin-top: auto;
+			margin-bottom: auto;
 		}
 		
 		.value {
@@ -113,8 +115,12 @@ Made in Brazil
 			width: 100%;
 		}
 		
+		#footer {
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+		
 		#footer hr {
-			width: 90%;
 			border-color: grey;
 			margin-top: 0;
 			margin-bottom: .8em;
@@ -123,23 +129,29 @@ Made in Brazil
 		#footer p {
 			color: grey;
 			font-size: .8em;
-			margin-left: 2em;
-			margin-right: 2em;
 		}
 		
 		/* --------------------------------------------- */
 		
+		@media (max-width: 750px) {
+			.vcard {
+				max-width: 400px;
+				width: 90%;
+			}		
+		}
+
+		@media (min-width: 751px) {
+			.vcard {
+				max-width: 750px;
+				width: 750px;
+			}
+		}
+
 		.container-fixed {
-			max-width: 320px;
 			margin-left: auto;
 			margin-right: auto;
 		}
-		
-		.container {
-			max-width: 320px;
-			width: 320px;
-		}
-		
+				
 		.list-group-item {
 /*			border: .07em solid grey; */
 			color: black;
@@ -172,61 +184,48 @@ Made in Brazil
 
   </head>
   <body>
-  	<div class="container-fixed vcard">
-		<div class="container">
+  	<div class="container vcard">
+  		<div class="section row" id="header">
 			<div class="row"><br/></div>
-		</div>
-		<div class="container" id="nametitle">
-			<div class="row">
-				<div class="col-xs-4 col-md-4 column">
+			<div class="row" id="nametitle">
+				<div class="col-xs-4 col-md-3 column">
 					<img src="photo.jpg" alt="photo" style="width: 100%" class="img-rounded img-responsive photo"/>
 				</div>
-				<div class="col-xs-8 col-md-8 column nametitle">
+				<div class="col-xs-8 col-md-9 column nametitle">
 					<h1 class="name n"><span class="given-name"><script>document.write(obj.name.first)</script></span> <span class="family-name"><script>document.write(obj.name.last)</script></span></h1>
 					<h2 class="role"><script>document.write(obj.title)</script></h2>
 					<h3 class="org"><span class="organization-unit"><script>document.write(obj.department)</script></span> @
 					<span class="organization-name"><script>document.write(obj.company)</script></span></h3>
 				</div>
 			</div>
-		</div>
 
-		<div class="container gap"></div>
+			<div class="row gap"></div>
 	
-		<div class="container buttons">
-			<div class="row">
-				<div class="col-xs-6 col-md-6 column" id="address-book-badge">
-					<p class="text-center"><a href="vcard.vcf"><img src="resources/img/add-to-addressbook-badge.png" style="width: 130px" alt="Add to address book"/></a></p>
+			<div id="buttons">
+				<div class="row">
+					<div class="col-xs-6 col-md-6 column" id="address-book-badge">
+						<p class="text-center"><a href="vcard.vcf"><img src="resources/img/add-to-addressbook-badge.png" style="width: 130px" alt="Add to address book"/></a></p>
+					</div>
+					<div class="col-xs-6 col-md-6 column" id="wallet-badge">
+						<p class="text-center"><a href="passbook.pkpass"><img src="resources/img/add-to-wallet-badge.png" style="width: 130px" alt="Add to Wallet"/></a></p>
+					</div>
 				</div>
-				<div class="col-xs-6 col-md-6 column" id="wallet-badge">
-					<p class="text-center"><a href="passbook.pkpass"><img src="resources/img/add-to-wallet-badge.png" style="width: 130px" alt="Add to Wallet"/></a></p>
-				</div>
-			</div>
-		</div>
-
-		<div class="container gap"></div>
-	
-		<div id="sections-container">
-			<div id="sections">
-				<!-- content will be rendered dynamically here on $(document).ready() -->
-			</div>
-			
-			<div class="container" id="qr-code">
-				<ul class="list-group">
-					<li class="list-group-item">
-						<div class="row">
-							<div class="col-xs-12 column"><img src="qr-code.png" alt="QR Code" title="QR Code"/></div>
-						</div>
-					</li>
-				</ul>
 			</div>
 
+			<div class="row gap"></div>
 		</div>
 		
-		<div id="footer">
-			<div class="container">
-				<hr/>
-				<p class="text-center"><a href="https://github.com/avibrazil/digital-business-card">The Digital Business Card project</a> says: save trees, spread the bits, think mobile, act mobile.</p>
-			</div>
+		<div class="section row" id="data">
+			<div id="sections" class="row">
+				<!-- content will be rendered dynamically here on $(document).ready() -->
+				<div id="section-column-1" class="col-xs-12 col-md-6 column"></div>
+				<div id="section-column-2" class="hidden-xs col-md-6 column"></div>			
+			</div>			
+		</div>
+		
+		<div class="section row" id="footer">
+			<hr/>
+			<p class="text-center"><a href="https://github.com/avibrazil/digital-business-card">The Digital Business Card project</a> says: save trees, spread the bits, think mobile, act mobile.</p>
 		</div>
 	</div>
 
@@ -265,32 +264,61 @@ Made in Brazil
 			i.src = $("#qr-code img").attr("src");
   		}
   		
-		$(document).ready(function() {		
+  		function changeHeader() {
 			// Check HTML <head>  to see how we loded data.json
 			
 			var sobj = window.JSON.stringify(obj);
 			sobj=sobj.split(obj.emailchar).join("@");
 			obj = window.JSON.parse(sobj);
 			
-			document.title=obj.name.first + " " + obj.name.last + ": " + obj.title;
+			document.title=obj.name.first + " " + obj.name.last + ": " + obj.title;			
+  		}
+  		
+  		function renderData() {
+  			var target=[document.getElementById("section-column-1")];
+  		
+			if (typeof obj.columns === 'undefined') {
+				// Defaults.... in case its undefined in data.json
+				obj.columns={
+					"1": ["phone", "publications", "address", "mail", "other"],
+					"2": ["social", "", "", "", "", "qrcode"]
+				}
+			}
+
+  			if ($(document).width() > 750) {
+  				target.push(document.getElementById("section-column-2"));
+  			}
+
+			var all=obj.columns["1"].length + obj.columns["2"].length;
+			var currentTarget=0, currentCol=1, sect;
 			
+			for (var i=0; i<all; i++) {
+				sect=obj.columns[currentCol].shift();
+				
+				if (typeof sect !== 'undefined' && sect) {
+					target[currentTarget].innerHTML += tmpl(
+						"section_" + sect + "_template",
+						section=(obj.section[sect]?obj.section[sect]:1)
+					);				
+				}
+				
+				currentCol = currentCol==1?2:1;
+				currentTarget = currentTarget==0?target.length-1:0;
+			}
+  		}
+  		
+		$(document).ready(function() {
+			changeHeader();
 			toggleWalletBadge();
+			renderData();
 			checkQRCode();
-			
-			var results = document.getElementById("sections");
-			
-			results.innerHTML += tmpl("section_phone_template",section=obj.section.phone);
-			results.innerHTML += tmpl("section_social_template",section=obj.section.social);
-			results.innerHTML += tmpl("section_mail_template",section=obj.section.mail);
-			results.innerHTML += tmpl("section_address_template",section=obj.section.address);
-			results.innerHTML += tmpl("section_other_template",section=obj.section.other);
 		});
 		-->
 	</script>
 	
 	<script type="text/html" id="section_phone_template">
 		<% if (section.length) { %>
-			<div class="container" id="phone">
+			<div class="block" id="phone">
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) { 
 						var protocol;
@@ -308,12 +336,10 @@ Made in Brazil
 								protocol = "tel://";
 						} %>
 						<li class="list-group-item">
-							<div class="">
-								<div class="row tel">
-									<div class="col-xs-3 column label type"><%=section[i].label%></div>
-									<div class="col-xs-9 column value">
-										<a class="value" href="<%=protocol%><%=section[i].value%>"><%=section[i].value%></a>
-									</div>
+							<div class="row tel">
+								<div class="col-xs-3 column label type"><%=section[i].label%></div>
+								<div class="col-xs-9 column value">
+									<a class="value" href="<%=protocol%><%=section[i].value%>"><%=section[i].value%></a>
 								</div>
 							</div>
 						</li>
@@ -325,16 +351,14 @@ Made in Brazil
 
 	<script type="text/html" id="section_mail_template">
 		<% if (section.length) { %>
-			<div class="container" id="mail">
+			<div class="block" id="mail">
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) { %>
 						<li class="list-group-item">
-							<div class="">
-								<div class="row">
-									<div class="col-xs-3 column label"><%=section[i].label%></div>
-									<div class="col-xs-9 column value">
-										<a class="mail" href="mailto:<%=section[i].value%>"><%=section[i].value%></a>
-									</div>
+							<div class="row">
+								<div class="col-xs-3 column label"><%=section[i].label%></div>
+								<div class="col-xs-9 column value">
+									<a class="mail" href="mailto:<%=section[i].value%>"><%=section[i].value%></a>
 								</div>
 							</div>
 						</li>
@@ -344,41 +368,51 @@ Made in Brazil
 		<% } %>
 	</script>
 
+	<script type="text/html" id="section_qrcode_template">
+		<div class="block" id="qr-code">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-xs-12 column"><img src="qr-code.png" alt="QR Code" title="QR Code"/></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</script>
+
 	<script type="text/html" id="section_address_template">
 		<% if (section.length) {
 			var apple = ( navigator.userAgent.match(/(Mac|iPad|iPhone|iPod)/g) ? true : false ); %>
-			<div class="container" id="address">
+			<div class="block" id="address">
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) { %>
 						<li class="list-group-item">
-							<div class="">
-								<div class="row">
-									<div class="col-xs-3 column label"><%=section[i].label%></div>
-									<div class="col-xs-9 column adr value">
-										<% if (section[i].geo) {
-											if (apple) { /* Open in Maps app on Apple devices */ %>
-												<a href="http://maps.apple.com/?ll=<%=section[i].geo%>&z=19&q=<%=section[i].geo%>">
-											<% } else { %>
-												<a href="https://www.google.com.br/maps/@<%=section[i].geo%>,19z" targe="_new">
-											<% } %>
-											<span class="glyphicon glyphicon-map-marker" style="color: red"></span></a>
+							<div class="row">
+								<div class="col-xs-3 column label"><%=section[i].label%></div>
+								<div class="col-xs-9 column adr value">
+									<% if (section[i].geo) {
+										if (apple) { /* Open in Maps app on Apple devices */ %>
+											<a href="http://maps.apple.com/?ll=<%=section[i].geo%>&z=19&q=<%=section[i].geo%>">
+										<% } else { %>
+											<a href="https://www.google.com.br/maps/@<%=section[i].geo%>,19z" targe="_new">
 										<% } %>
-										<% if (section[i].street) { %>
-											<span class="street-address"><%=section[i].street%></span><br/>
-										<% } %>
-										<% if (section[i].city) { %>
-											<span class="locality"><%=section[i].city%></span><% if (section[i].state) { %>,<% } %>
-										<% } %>
-										<% if (section[i].state) { %>
-											<span class="region"><%=section[i].state%></span><br/>
-										<% } %>
-										<% if (section[i].zip) { %>
-											<span class="postal-code"><%=section[i].zip%></span><br/>
-										<% } %>
-										<% if (section[i].country) { %>
-											<div class="country-name"><%=section[i].country%></span><br/>
-										<% } %>
-									</div>
+										<span class="glyphicon glyphicon-map-marker" style="color: red"></span></a>
+									<% } %>
+									<% if (section[i].street) { %>
+										<span class="street-address"><%=section[i].street%></span><br/>
+									<% } %>
+									<% if (section[i].city) { %>
+										<span class="locality"><%=section[i].city%></span><% if (section[i].state) { %>,<% } %>
+									<% } %>
+									<% if (section[i].state) { %>
+										<span class="region"><%=section[i].state%></span><br/>
+									<% } %>
+									<% if (section[i].zip) { %>
+										<span class="postal-code"><%=section[i].zip%></span><br/>
+									<% } %>
+									<% if (section[i].country) { %>
+										<div class="country-name"><%=section[i].country%></span><br/>
+									<% } %>
 								</div>
 							</div>
 						</li>
@@ -390,7 +424,7 @@ Made in Brazil
 
 	<script type="text/html" id="section_social_template">
 		<% if (section.length) { %>
-			<div class="container" id="social">
+			<div class="block" id="social">
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) {
 						var url;
@@ -428,17 +462,32 @@ Made in Brazil
 		<% } %>
 	</script>
 
-	<script type="text/html" id="section_other_template">
+	<script type="text/html" id="section_publications_template">
 		<% if (section.length) { %>
-			<div class="container" id="other">
+			<div class="block" id="publications">
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) { %>
 						<li class="list-group-item">
-							<div class="">
-								<div class="row">
-									<div class="col-xs-3 column label"><%=section[i].label%></div>
-									<div class="col-xs-9 column value"><%=section[i].value%></div>
-								</div>
+							<div class="row">
+								<div class="col-xs-3 column label"><%=section[i].label%></div>
+								<div class="col-xs-9 column value"><a href="<%=section[i].protocol + "://" + section[i].value%>"><%=section[i].value%></a></div>
+							</div>
+						</li>
+					<% } %>
+				</ul>
+			</div>
+		<% } %>
+	</script>
+
+	<script type="text/html" id="section_other_template">
+		<% if (section.length) { %>
+			<div class="block" id="other">
+				<ul class="list-group">
+					<% for ( var i = 0; i < section.length; i++ ) { %>
+						<li class="list-group-item">
+							<div class="row">
+								<div class="col-xs-3 column label"><%=section[i].label%></div>
+								<div class="col-xs-9 column value"><%=section[i].value%></div>
 							</div>
 						</li>
 					<% } %>
