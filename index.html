@@ -60,18 +60,39 @@ Made in Brazil
 
 	<!-- Some customizations on top of Bootstrap -->
 	<style>
-		.role, .org {
-			font-size: 1em;
-		}
-			
+	
+		/* Style definitions */
+	
 		body {
 			background-color: rgb(208,214,224);
 		}
 		
+		@media (min-width: 660px) {
+			/* name, job description, department and company font sizes on windows bigger than 660px */
+			.n {
+				font-size: 2.5em;
+			}
+			
+			.role, .org {
+				font-size: 1.6em;
+			}
+		}
+		
+		@media (max-width: 659px) {
+			/* name, job description, department and company font sizes on windows smaller than 660px */
+			
+			.n {
+				font-size: 1.6em;
+			}
+			
+			.role, .org {
+				font-size: 1em;
+			}
+		}		
+		
 		.n {
 			text-shadow: .05em .05em 0 white;
 			font-weight: bold;
-			font-size: 1.6em;
 			margin-top: 0;
 		}
 		
@@ -85,30 +106,11 @@ Made in Brazil
 			margin-top: 0;
 		}
 		
-		.photo {
-			/* border: 2px solid black; */
-			/* box-shadow: 2px 2px 0 0 white, 0 0 2px 2px black; */
-		}
-		
-		#buttons img {
-			width: 100%;
-		}
-		
-		.gap {
-			height: 1em;
-		}
-
 		.label {
 			text-align: right;
 			color: rgb(0,52,115);
 			font-weight: normal;
 			font-size: 1em;	
-		}
-		
-		#social .label img {
-			height: 1.6em;
-			margin-top: -0.3em;
-			margin-bottom: -0.3em;
 		}
 		
 		.value {
@@ -117,11 +119,6 @@ Made in Brazil
 		
 		#qr-code img {
 			width: 100%;
-		}
-		
-		#footer {
-			padding-left: 1em;
-			padding-right: 1em;
 		}
 		
 		#footer hr {
@@ -137,18 +134,24 @@ Made in Brazil
 		
 		/* --------------------------------------------- */
 		
-		@media (max-width: 767px) {
-			.vcard {
-				max-width: 90%;
-				width: 90%;
-			}
+		/* Layout and positioning definitions */
+		
+		.vcard {
+			width: 90%;
+		}
+		
+		.gap {
+			height: 1em;
 		}
 
-		@media (min-width: 768px) {
-			.vcard {
-				max-width: 90%px;
-				width: 90%;
-			}
+		#buttons img {
+			width: 100%;
+		}
+		
+		#social .label img {
+			height: 1.6em;
+			margin-top: -0.3em;
+			margin-bottom: -0.3em;
 		}
 
 		.container-fixed {
@@ -179,6 +182,11 @@ Made in Brazil
 		.img-rounded {
 			border-radius: 0.5em;
 		}
+
+		#footer {
+			padding-left: 1em;
+			padding-right: 1em;
+		}		
 		
 	</style>
 
@@ -287,7 +295,7 @@ Made in Brazil
 				}
 			}
 
-			// a plain copy, to be consumed...
+			// a plain deep copy to be consumed...
 			columns = jQuery.extend(true, {}, obj.columns);
 
   			if ($(document).width() > 767) {
@@ -311,7 +319,7 @@ Made in Brazil
 					);				
 				}
 				
-				// Give column 2 the last chances
+				// Give column 2 the last chance
 				if (i==(all-1) && currentCol==1) i--;
 				
 				currentCol = currentCol==1?2:1;
