@@ -90,6 +90,10 @@ Made in Brazil
 			/* box-shadow: 2px 2px 0 0 white, 0 0 2px 2px black; */
 		}
 		
+		#buttons img {
+			width: 100%;
+		}
+		
 		.gap {
 			height: 1em;
 		}
@@ -133,25 +137,17 @@ Made in Brazil
 		
 		/* --------------------------------------------- */
 		
-		@media (max-width: 750px) {
+		@media (max-width: 767px) {
 			.vcard {
-				max-width: 400px;
+				max-width: 90%;
 				width: 90%;
-			}
-			
-			#buttons img {
-				width: 100%;
 			}
 		}
 
-		@media (min-width: 751px) {
+		@media (min-width: 768px) {
 			.vcard {
-				max-width: 750px;
-				width: 750px;
-			}
-
-			#buttons img {
-				width: 50%;
+				max-width: 90%px;
+				width: 90%;
 			}
 		}
 
@@ -192,10 +188,10 @@ Made in Brazil
   		<div class="section row" id="header">
 			<div class="row"><br/></div>
 			<div class="row" id="nametitle">
-				<div class="col-xs-4 col-md-3 column">
+				<div class="col-xs-4 col-sm-3 column">
 					<img src="photo.jpg" alt="photo" style="width: 100%" class="img-rounded img-responsive photo"/>
 				</div>
-				<div class="col-xs-8 col-md-9 column nametitle">
+				<div class="col-xs-8 col-sm-9 column nametitle">
 					<h1 class="name n"><span class="given-name"><script>document.write(obj.name.first)</script></span> <span class="family-name"><script>document.write(obj.name.last)</script></span></h1>
 					<h2 class="role"><script>document.write(obj.title)</script></h2>
 					<h3 class="org"><span class="organization-unit"><script>document.write(obj.department)</script></span> @
@@ -207,11 +203,11 @@ Made in Brazil
 	
 			<div id="buttons">
 				<div class="row">
-					<div class="col-xs-6 col-md-6 column" id="address-book-badge">
-						<p class="text-center"><a href="vcard.vcf"><img src="resources/img/add-to-addressbook-badge.png" class="pull-left" alt="Add to address book"/></a></p>
+					<div class="col-xs-6 col-sm-3 column" id="address-book-badge">
+						<p class="text-center"><a href="vcard.vcf"><img src="resources/img/add-to-addressbook-badge.png" alt="Add to address book"/></a></p>
 					</div>
-					<div class="col-xs-6 col-md-6 column" id="wallet-badge">
-						<p class="text-center"><a href="passbook.pkpass"><img src="resources/img/add-to-wallet-badge.png" class="pull-right" alt="Add to Wallet"/></a></p>
+					<div class="col-xs-6 col-sm-3 col-sm-offset-6 column" id="wallet-badge">
+						<p class="text-center"><a href="passbook.pkpass"><img src="resources/img/add-to-wallet-badge.png" alt="Add to Wallet"/></a></p>
 					</div>
 				</div>
 			</div>
@@ -222,8 +218,8 @@ Made in Brazil
 		<div class="section row" id="data">
 			<div id="sections" class="row">
 				<!-- content will be rendered dynamically here on $(document).ready() -->
-				<div id="section-column-1" class="col-xs-12 col-md-6 column"></div>
-				<div id="section-column-2" class="hidden-xs col-md-6 column"></div>			
+				<div id="section-column-1" class="col-xs-12 col-sm-6 column"></div>
+				<div id="section-column-2" class="hidden-xs col-sm-6 column"></div>			
 			</div>			
 		</div>
 		
@@ -280,6 +276,8 @@ Made in Brazil
   		
   		function renderData() {
   			var target=[document.getElementById("section-column-1")];
+  			var columns;
+  			var i;
   		
 			if (typeof obj.columns === 'undefined') {
 				// Defaults.... in case its undefined in data.json
@@ -289,15 +287,22 @@ Made in Brazil
 				}
 			}
 
-  			if ($(document).width() > 750) {
+			// a plain copy, to be consumed...
+			columns = jQuery.extend(true, {}, obj.columns);
+
+  			if ($(document).width() > 767) {
   				target.push(document.getElementById("section-column-2"));
   			}
+  			
+  			for (i=0; i<target.length; i++) {
+  				target[i].innerHTML="";
+  			}
 
-			var all=obj.columns["1"].length + obj.columns["2"].length;
+			var all=columns["1"].length + columns["2"].length;
 			var currentTarget=0, currentCol=1, sect;
 			
-			for (var i=0; i<all; i++) {
-				sect=obj.columns[currentCol].shift();
+			for (i=0; i<all; i++) {
+				sect=columns[currentCol].shift();
 				
 				if (typeof sect !== 'undefined' && sect) {
 					target[currentTarget].innerHTML += tmpl(
@@ -319,6 +324,9 @@ Made in Brazil
 			toggleWalletBadge();
 			renderData();
 			checkQRCode();
+			
+			// Define handler for window resize or device orientation change
+			$(window).resize(renderData);
 		});
 		-->
 	</script>
