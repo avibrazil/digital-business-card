@@ -137,13 +137,21 @@ Made in Brazil
 			.vcard {
 				max-width: 400px;
 				width: 90%;
-			}		
+			}
+			
+			#buttons img {
+				width: 100%;
+			}
 		}
 
 		@media (min-width: 751px) {
 			.vcard {
 				max-width: 750px;
 				width: 750px;
+			}
+
+			#buttons img {
+				width: 50%;
 			}
 		}
 
@@ -176,10 +184,6 @@ Made in Brazil
 			border-radius: 0.5em;
 		}
 		
-		address {
-			margin-bottom: 0;
-		}
-		
 	</style>
 
   </head>
@@ -204,10 +208,10 @@ Made in Brazil
 			<div id="buttons">
 				<div class="row">
 					<div class="col-xs-6 col-md-6 column" id="address-book-badge">
-						<p class="text-center"><a href="vcard.vcf"><img src="resources/img/add-to-addressbook-badge.png" style="width: 130px" alt="Add to address book"/></a></p>
+						<p class="text-center"><a href="vcard.vcf"><img src="resources/img/add-to-addressbook-badge.png" class="pull-left" alt="Add to address book"/></a></p>
 					</div>
 					<div class="col-xs-6 col-md-6 column" id="wallet-badge">
-						<p class="text-center"><a href="passbook.pkpass"><img src="resources/img/add-to-wallet-badge.png" style="width: 130px" alt="Add to Wallet"/></a></p>
+						<p class="text-center"><a href="passbook.pkpass"><img src="resources/img/add-to-wallet-badge.png" class="pull-right" alt="Add to Wallet"/></a></p>
 					</div>
 				</div>
 			</div>
@@ -280,8 +284,8 @@ Made in Brazil
 			if (typeof obj.columns === 'undefined') {
 				// Defaults.... in case its undefined in data.json
 				obj.columns={
-					"1": ["phone", "publications", "address", "mail", "other"],
-					"2": ["social", "", "", "", "", "qrcode"]
+					"1": ["phone",  "publications", "address", "mail"],
+					"2": ["social", "",             "",        "other", "qrcode"]
 				}
 			}
 
@@ -301,6 +305,9 @@ Made in Brazil
 						section=(obj.section[sect]?obj.section[sect]:1)
 					);				
 				}
+				
+				// Give column 2 the last chances
+				if (i==(all-1) && currentCol==1) i--;
 				
 				currentCol = currentCol==1?2:1;
 				currentTarget = currentTarget==0?target.length-1:0;
