@@ -110,6 +110,12 @@ var obj =
 				"label": "Bitcoin",
 				"value": "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR"
 			}
+		],
+		
+		"qrcode": [
+			{
+				"label": "Scan with iPhone Wallet app or any QR reader"
+			}
 		]
 	}	
 };

@@ -105,6 +105,10 @@ Made in Brazil
 			font-weight: normal;
 			margin-top: 0;
 		}
+
+		.list-group-item a {
+			color: black;
+		}
 		
 		.label {
 			text-align: right;
@@ -138,6 +142,9 @@ Made in Brazil
 		
 		.vcard {
 			width: 90%;
+			
+			/* This is the perfect width where the 2 columns of my (Avi) card look good */
+			max-width: 44.5em;
 		}
 		
 		.gap {
@@ -154,6 +161,14 @@ Made in Brazil
 			margin-bottom: -0.3em;
 		}
 
+		#qr-code .label {
+			display: block;
+			margin-top: 0.5em;
+			margin-bottom: 0;
+			text-align: center;
+			white-space: normal;
+		}
+
 		.container-fixed {
 			margin-left: auto;
 			margin-right: auto;
@@ -163,10 +178,6 @@ Made in Brazil
 /*			border: .07em solid grey; */
 			color: black;
 			font-weight: bold;
-		}
-		
-		.list-group-item a {
-			color: black;
 		}
 		
 		.list-group-item:first-child {
@@ -395,9 +406,8 @@ Made in Brazil
 		<div class="block" id="qr-code">
 			<ul class="list-group">
 				<li class="list-group-item">
-					<div class="row">
-						<div class="col-xs-12 column"><img src="qr-code.png" alt="QR Code" title="QR Code"/></div>
-					</div>
+					<img class="value" src="qr-code.png" alt="QR Code" title="QR Code"/>
+					<div class="label"><%=section[0].label%></div>
 				</li>
 			</ul>
 		</div>
