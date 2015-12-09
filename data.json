@@ -36,6 +36,10 @@ var obj =
 				"label": "facetime"
 			},
 			{
+				"value": "avibrazilⓐgmail.com",
+				"label": "hangouts"
+			},
+			{
 				"value": "avibrazil",
 				"label": "skype"
 			},
