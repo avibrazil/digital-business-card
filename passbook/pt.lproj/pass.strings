@@ -4,7 +4,7 @@
 "frontMainPhone_label" = "iPhone";
 "frontMainPhone_value" = "+55 (11) 98353-6848";
 
-"frontTitle_value" = "Arquiteto de Cloud";
+"frontTitle_value" = "Client Technical Advisor";
 
 "frontSocial_label" = "Redes Sociais";
 "frontSocial_value" = "@aamiyazaki";
@@ -13,8 +13,7 @@
 "frontEmail_value" = "albertoⓐbr.ibm.com";
 
 "backTitle_label" = "O que eu faço";
-"backTitle_value" = "Arquiteto na IBM para soluções de Cloud (☁Cloud, ☯DevOps, TI Duas Velocidades) que habilitam inovações na 3ª Plataforma para engajamento de clientes e Tranformação de TI";
-"backTitle_attributedValue" = "Arquiteto na IBM para soluções de Cloud (☁Cloud, , <a href=\"https://pt.wikipedia.org/wiki/DevOps\">☯DevOps</a>, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">TI Duas Velocidades</a>) que habilitam inovações na <a href=\"http://en.wikipedia.org/wiki/Third_platform\">3ª Plataforma</a> para engajamento de clientes e Tranformação de TI";
+"backTitle_value" = "Arquiteto na IBM para soluções complexas que habilitam Tranformação de TI e Inovações para o Negócio";
 
 "backURL_label" = "⚡️ Mais detalhes sobre as soluções da IBM";
 "backURL_value" = "http://IBM.com/BR";
@@ -25,7 +24,7 @@
 
 "backMobile_value" = "+55 (11) 98353-6848 (funciona com iMessage, FaceTime, WhatsApp e Hangouts)";
 
-"backPhone_label" = "Telefone";
+"backPhone_label" = "Telefone Comercial";
 "backPhone_value" = "+55 (11) 99969-2441";
 
 "backAddress_label" = "🏢 Endereço";
@@ -35,9 +34,6 @@
 
 "backMore_value" = "https://aamiyazaki.net.br/card/";
 "backMore_attributedValue" = "• <a href=\"https://aamiyazaki.net.br/card/vcard.vcf\">Adicione-me aos contatos</a>\n• <a href=\"https://aamiyazaki.net.br/card/\">Veja meu cartão de visita em outros formatos</a>\n• Feito com <a href=\"https://github.com/avibrazil/digital-business-card\">Digital Business Card</a>";
-
-"backSignature_label" = "oʇdıɹƆ";
-"backSignature_value" = "Assinado digitalmente por Avi Alkalay.";
 
 "locationsRelevantText_value" = "Alberto trabalha perto daqui";
 

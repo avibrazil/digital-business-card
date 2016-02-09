@@ -4,7 +4,7 @@
 "frontMainPhone_label" = "Mobile";
 "frontMainPhone_value" = "+55 (11) 98353-6848";
 
-"frontTitle_value" = "Cloud Advisor";
+"frontTitle_value" = "Client Technical Advisor";
 
 "frontSocial_label" = "Social Networks";
 "frontSocial_value" = "@aamiyazaki";
@@ -13,10 +13,9 @@
 "frontEmail_value" = "albertoⓐbr.ibm.com";
 
 "backTitle_label" = "What I do";
-"backTitle_value" = "IBM architect for Cloud Solutions (☁Cloud, ☯DevOps, Two Speed IT) to enable Third Platform innovations for user engagement and IT transformation";
-"backTitle_attributedValue" = "IBM architect for Cloud Solutions (☁Cloud, <a href=\"https://en.wikipedia.org/wiki/DevOps\">☯DevOps</a>, <a href=\"https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_two_speed_integration_by_ibm\">Two Speed IT</a>) to enable <a href=\"https://en.wikipedia.org/wiki/Third_platform\">Third Platform</a> innovations for user engagement and IT transformation";
+"backTitle_value" = "IBM Architect for complex solutions to enable IT transformation and Business Innovation";
 
-"backURL_label" = "⚡️ More about IBM solutions";
+"backURL_label" = "More about IBM solutions";
 "backURL_value" = "http://IBM.com/";
 "backURL_attributedValue" = "<a href=\"http://IBM.com/\">IBM.com</a>";
 
@@ -25,7 +24,7 @@
 
 "backMobile_value" = "+55 (11) 98353-6848 (works with iMessage, FaceTime, WhatsApp and Hangouts)";
 
-"backPhone_label" = "☎️ Phone";
+"backPhone_label" = "☎Business Phone";
 "backPhone_value" = "+55 (11) 99969-2441";
 
 "backAddress_label" = "🏢 Address";
@@ -35,9 +34,6 @@
 
 "backMore_value" = "https://aamiyazaki.net.br/card/";
 "backMore_attributedValue" = "• <a href=\"https://aamiyazaki.net.br/card/vcard.vcf\">Add me to your phone contacts</a>\n• <a href=\"https://aamiyazaki.net.br/card/\">See my business card in other formats</a>\n• Powered by <a href=\"https://github.com/avibrazil/digital-business-card\">Digital Business Card</a>";
-
-"backSignature_label" = "ℭ℩ƥℎℇř";
-"backSignature_value" = "Digitally signed by Avi Alkalay.";
 
 "locationsRelevantText_value" = "Alberto works nearby";
 
