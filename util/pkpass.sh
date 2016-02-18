@@ -30,12 +30,11 @@ if [[ ! -d "$SOURCE" ]]; then
 	exit 1
 fi
 
-TMPPP=$TMPDIR
-[[ -z "$TMPPP" ]] && TMPPP="/tmp"
+TMPPP=`mktemp -d`    # Linux and Mac
 
-PRIVATEKEY="`mktemp $RANDOM.key.pem`"
-CERT="`mktemp $RANDOM.cert.pem`"
-PACKAGE=`mktemp -d $TMPPP/$RANDOM`
+PRIVATEKEY="`mktemp`"
+CERT="`mktemp`"
+PACKAGE=`mktemp -d`
 
 echo "Packaging directory $SOURCE in $PACKAGE"
 
