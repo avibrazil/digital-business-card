@@ -38,7 +38,8 @@
 "backAddress_value" = "R. Tutóia 1157 • São Paulo • Brasil";
 
 "backBitcoin_label" = "💰 Mande-me ฿itcoins";
-"backBitcoin_value" = "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR";
+"backBitcoin_value" = "1FAmpYAuxY5EgQwm5roSnwKhAX4MxxxB3k";
+"backBitcoin_attributedValue" = "<a href=\"bitcoin:1FAmpYAuxY5EgQwm5roSnwKhAX4MxxxB3k\">1FAmpYAuxY5EgQwm5roSnwKhAX4MxxxB3k</a>";
 
 "backWarning_label" = "✋ ATENÇÃO";
 "backWarning_value" = "E-mail é a pior forma de me contactar. Por favor prefira WhatsApp, iMessage, FaceTime, Facebook e Hangouts com meu telefone ou endereço de e-mail.";

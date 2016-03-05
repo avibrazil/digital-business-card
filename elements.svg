@@ -140,6 +140,112 @@
        y1="16.407801"
        x2="20.580601"
        y2="18.348499" />
+    <filter
+       height="3.5045664"
+       y="-1.2522832"
+       width="1.3112183"
+       x="-0.15560915"
+       id="filter3998"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur4000"
+         stdDeviation="26.410455"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter4462"
+       color-interpolation-filters="sRGB"
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inner Shadow">
+      <feGaussianBlur
+         id="feGaussianBlur4464"
+         result="result8"
+         stdDeviation="4" />
+      <feOffset
+         id="feOffset4466"
+         result="result11"
+         dy="4"
+         dx="4" />
+      <feComposite
+         id="feComposite4468"
+         in2="result11"
+         operator="in"
+         in="SourceGraphic"
+         result="result6" />
+      <feFlood
+         id="feFlood4470"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         in="result6"
+         result="result10" />
+      <feBlend
+         id="feBlend4472"
+         in2="result10"
+         in="result6"
+         mode="normal" />
+      <feComposite
+         id="feComposite4474"
+         in2="SourceGraphic"
+         operator="in"
+         result="result2" />
+    </filter>
+    <filter
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       id="filter4856"
+       color-interpolation-filters="sRGB"
+       inkscape:label="Cutout"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Drop shadow under the cut-out of the shape">
+      <feOffset
+         id="feOffset4858"
+         dx="3"
+         dy="3" />
+      <feGaussianBlur
+         id="feGaussianBlur4860"
+         stdDeviation="3"
+         result="result8" />
+      <feFlood
+         id="feFlood4862"
+         result="result10"
+         in="result8"
+         flood-opacity="1"
+         flood-color="black" />
+      <feComposite
+         id="feComposite4864"
+         result="result9"
+         in="result10"
+         operator="in"
+         in2="SourceGraphic" />
+      <feBlend
+         result="fbSourceGraphic"
+         id="feBlend4866"
+         in="result8"
+         in2="result9"
+         mode="normal" />
+      <feColorMatrix
+         id="feColorMatrix4876"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         stdDeviation="140"
+         in="fbSourceGraphicAlpha"
+         id="feGaussianBlur4878" />
+      <feOffset
+         result="result91"
+         dx="5"
+         dy="5"
+         id="feOffset4880" />
+      <feComposite
+         in="fbSourceGraphic"
+         operator="out"
+         in2="result91"
+         id="feComposite4882" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -148,16 +254,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.19463285"
-     inkscape:cx="2111.3031"
-     inkscape:cy="426.68671"
+     inkscape:zoom="1.5908988"
+     inkscape:cx="-357.74056"
+     inkscape:cy="-122.86039"
      inkscape:document-units="px"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer11"
      showgrid="false"
      inkscape:window-width="1560"
      inkscape:window-height="979"
      inkscape:window-x="48"
-     inkscape:window-y="41"
+     inkscape:window-y="701"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -204,6 +310,109 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="Pass icon">
+    <image
+       sodipodi:absref="/Users/aviram/src/digital-business-card/photo.jpg"
+       xlink:href="photo.jpg"
+       y="1095.6825"
+       x="-294.86578"
+       id="pass-icon"
+       preserveAspectRatio="none"
+       height="29.090624"
+       width="29"
+       inkscape:label=""
+       style="display:inline" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="Pass thumbnail"
+     style="display:inline">
+    <image
+       sodipodi:absref="/Users/aviram/src/digital-business-card/photo.jpg"
+       xlink:href="photo.jpg"
+       inkscape:label=""
+       width="89.719627"
+       height="90"
+       preserveAspectRatio="none"
+       id="pass-thumbnail"
+       x="-431.26666"
+       y="1090.7163"
+       style="display:inline" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Pass logo">
+    <g
+       id="ibm-cloud-logo"
+       transform="matrix(0.08333333,0,0,0.08333333,-386.90292,734.37504)"
+       inkscape:label="">
+      <desc
+         id="desc5525">For the top of the pass</desc>
+      <title
+         id="title5523">IBM Logo with Cloud</title>
+      <rect
+         y="2412.5"
+         x="-387.21402"
+         height="600"
+         width="1756.452"
+         id="rect5503"
+         style="opacity:1;fill:#fcf9ba;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#1f70c1"
+         inkscape:connector-curvature="0"
+         inkscape:export-ydpi="22.5"
+         inkscape:export-xdpi="22.5"
+         inkscape:export-filename="/Users/aviram/src/business-card/logo@2x.png"
+         id="path4"
+         d="m -387.21401,2512.4998 0,27.367 194.64844,0 0,-27.367 -194.64844,0 z m 222.22657,0 0,27.367 277.3828,0 c -1e-5,0 -28.33312,-27.367 -65.85937,-27.367 l -211.52343,0 z m 331.79687,0 0,27.367 167.8125,0 -9.96094,-27.367 -157.85156,0 z m 288.125,0 -9.96094,27.367 166.28906,0 0,-27.367 -156.32812,0 z m -842.14844,53.2222 0,27.367 194.64844,0 0,-27.367 -194.64844,0 z m 222.22657,0.039 0,27.3282 309.57031,0 c 0,1e-4 -3.61563,-21.0628 -9.92188,-27.3282 l -299.64843,0 z m 331.79687,0 0,27.3282 186.21094,0 -9.21876,-27.3282 -176.99218,0 z m 268.20312,0 -9.21875,27.3282 185.46875,0 0,-27.3282 -176.25,0 z m -766.28906,53.1835 0,27.4057 84.29687,0 0,-27.4057 -84.29687,0 z m 222.22657,0 0,27.4057 84.29686,0 0,-27.4057 -84.29686,0 z m 166.28906,0 0,27.4057 84.29687,0 c 1e-5,0 5.35156,-14.473 5.35156,-27.4057 l -89.64843,0 z m 165.50781,0 0,27.4057 149.45313,0 -9.96094,-27.4057 -139.49219,0 z m 193.90625,0 -10,27.4057 150.19531,0 0,-27.4057 -140.19531,0 z m -747.92969,53.2609 0,27.367 84.29687,0 0,-27.367 -84.29687,0 z m 222.22657,0 0,27.367 215.3125,0 c 1e-5,0 18.01124,-14.0423 23.74999,-27.367 l -239.06249,0 z m 331.79687,0 0,27.367 84.29687,0 0,-15.234 5.35156,15.234 154.41407,0 5.74219,-15.234 0,15.234 84.29687,0 0,-27.367 -158.24219,0 -8.39844,23.1806 -8.43749,-23.1806 -159.02344,0 z m -554.02344,53.2222 0,27.367 84.29687,0 0,-27.367 -84.29687,0 z m 222.22657,0 0,27.367 239.06249,0 c -5.73999,-13.2813 -23.74999,-27.367 -23.74999,-27.367 l -215.3125,0 z m 331.79687,0 0,27.367 84.29687,0 0,-27.367 -84.29687,0 z m 99.60937,0 10.19532,27.367 115.78125,0 9.6875,-27.367 -135.66407,0 z m 150.19532,0 0,27.367 84.29687,0 0,-27.367 -84.29687,0 z m -803.82813,53.2223 0,27.3669 84.29687,0 0,-27.3669 -84.29687,0 z m 222.22657,0 0,27.3669 84.29686,0 0,-27.3669 -84.29686,0 z m 166.28906,0 0,27.3669 89.64843,0 c 2e-5,-12.9153 -5.35156,-27.3669 -5.35156,-27.3669 l -84.29687,0 z m 165.50781,0 0,27.3669 84.29687,0 0,-27.3669 -84.29687,0 z m 118.74999,0 9.88282,27.3669 77.61718,0 9.96094,-27.3669 -97.46094,0 z m 131.0547,0 0,27.3669 84.29687,0 0,-27.3669 -84.29687,0 z m -858.2422,53.2222 0,27.4057 194.64844,0 0,-27.4057 -194.64844,0 z m 220.70314,0 0,27.4057 299.64843,0 c 6.30625,-6.2753 9.92188,-27.4057 9.92188,-27.4057 l -309.57031,0 z m 333.3203,0 0,27.4057 138.71094,0 0,-27.4057 -138.71094,0 z m 192.34375,0 10.15625,27.4057 39.49219,0 9.53125,-27.4057 -59.17969,0 z m 111.87501,0 0,27.4057 140.23437,0 0,-27.4057 -140.23437,0 z m -858.2422,53.2609 0,27.367 194.64844,0 0,-27.367 -194.64844,0 z m 220.70314,0 0,27.3282 211.52343,0 c 37.52624,0 65.85937,-27.3282 65.85937,-27.3282 l -277.3828,0 z m 333.3203,0 0,27.367 138.71094,0 0,-27.367 -138.71094,0 z m 211.60157,0 9.76563,27.2895 1.67968,0.039 9.92188,-27.3283 -21.36719,0 z m 92.61719,0 0,27.367 140.23437,0 0,-27.367 -140.23437,0 z" />
+      <g
+         id="g5515">
+        <ellipse
+           ry="25.30781"
+           rx="203.66762"
+           cy="560.23059"
+           cx="1519.6737"
+           style="opacity:0.55217393;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter3998)"
+           id="path3984"
+           transform="matrix(1,0,0,0.51034591,-417.48347,2664.3905)" />
+        <g
+           inkscape:label="Blue Cloud"
+           id="blueCloud"
+           transform="matrix(0.5333333,0,0,0.5333333,835.52359,2512.4998)">
+          <path
+             inkscape:label="Integral Cloud"
+             style="fill:#008abf;fill-opacity:1;stroke:none"
+             d="M 750,250 C 611.92881,250 500,361.92881 500,500 500,638.07119 388.07119,750 250,750 l 500,0 c 138.07119,0 250,-111.92881 250,-250 0,-138.07119 -111.92881,-250 -250,-250 z"
+             id="cloud"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:label="Intersection 1"
+             sodipodi:nodetypes="ccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="intersection1"
+             d="m 750,250 c -56.29166,0 -108.24389,18.60405 -150.03125,50 l 145,0 C 748.24971,283.84082 750,267.12749 750,250 Z m -20.84375,100 -179.1875,0 c -11.55053,15.37913 -21.32874,32.15973 -29.125,50 l 179.1875,0 c 11.55053,-15.37913 21.32874,-32.15973 29.125,-50 z m -224.125,100 C 501.75029,466.15918 500,482.87251 500,500 c 56.29166,0 108.24389,-18.60405 150.03125,-50 z"
+             style="fill:#00649d;fill-opacity:1;stroke:none" />
+          <path
+             inkscape:label="Intersection 2"
+             inkscape:connector-curvature="0"
+             id="intersection2"
+             d="m 599.96875,300 c -18.9094,14.20236 -35.80072,31.08781 -50,50 59.72917,0 119.45833,0 179.1875,0 7.00755,-16.04789 12.35043,-32.83293 15.8125,-50 -48.33333,0 -96.66667,0 -145,0 z m -79.125,100 c -7.01481,16.04668 -12.32993,32.83645 -15.8125,50 48.33333,0 96.66667,0 145,0 18.89887,-14.21646 35.79149,-31.09313 50,-50 -59.72917,0 -119.45833,0 -179.1875,0 z"
+             style="fill:#00e312;fill-opacity:1;stroke:none" />
+          <path
+             inkscape:label="IBM Cloud"
+             style="fill:#008abf;fill-opacity:1;stroke:none"
+             d="M 500,0 C 443.70834,0 391.75611,18.60405 349.96875,50 l 300.06246,0 C 608.24391,18.60405 556.29171,0 500,0 Z M 299.96875,100 c -11.55053,15.37913 -21.32874,32.15973 -29.125,50 l 458.31246,0 c -7.7962,-17.84027 -17.5744,-34.62087 -29.125,-50 l -400.06246,0 z m -44.9375,100 C 251.75029,216.15918 250,232.87251 250,250 l 500.00001,0 c 0,-17.12749 -1.7503,-33.84082 -5.0313,-50 l -489.93746,0 z M 99.96875,300 c -18.93229,14.22433 -35.77892,31.06513 -50,50 l 679.18746,0 c 6.9381,-15.87633 12.2813,-32.60814 15.8125,-50 l -644.99996,0 z m -79.125,100 c -6.93801,15.87633 -12.28126,32.60814 -15.8125,50 l 644.99996,0 c 18.9323,-14.22433 35.779,-31.06513 50,-50 L 20.84375,400 Z M 0,500 c 0,17.12749 1.75029,33.84082 5.03125,50 l 489.9375,0 C 498.24971,533.84082 500,517.12749 500,500 L 0,500 Z m 20.84375,100.00004 c 7.79626,17.8402 17.57447,34.6208 29.125,50 l 400.0625,0 c 11.55053,-15.3792 21.32874,-32.1598 29.125,-50 l -458.3125,0 z m 79.125,100 c 41.78736,31.3959 93.73959,50 150.03125,50 56.29166,0 108.24389,-18.6041 150.03125,-50 l -300.0625,0 z"
+             id="ibmcloud"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"

@@ -12,7 +12,7 @@ var obj =
 	},
 	"title": "Full stack web & mobile solutions architect, Cloud & DevOps Advisor",
 	"company": "IBM",
-	"department": "Cloud • Analytics • Mobile • User Engagement",
+	"department": "Cloud • Agile • Mobile • User Engagement",
 
 	"columns": {
 		"1": ["phone", "publications", "address", "mail"],
@@ -112,7 +112,7 @@ var obj =
 		"other": [
 			{
 				"label": "Bitcoin",
-				"value": "1PLTZBLpczMT7XYwoFi1pN27sg2vvS1AjR"
+				"value": "1FAmpYAuxY5EgQwm5roSnwKhAX4MxxxB3k"
 			}
 		],
 		
