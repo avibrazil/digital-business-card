@@ -1,0 +1,37 @@
+#!/bin/sh
+
+# Heavily based on:
+#    http://www.passcreator.de/en/help/how-to-create-a-certificate-for-your-passbook-pass-on-windows/
+# and
+#    https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs
+#
+# Turned into documented code by Avi Alkalay
+
+
+ID = "pass.net.alkalay.avipaladini.digicard"
+
+
+# 1. Create Pass Type ID.
+# 2. Generate unencrypted private key:
+
+openssl genrsa -out ${ID}.key 2048
+
+
+
+# 3. Create a Certificate Signing Request:
+
+openssl req -key ${ID}.key -nodes -new -out ${ID}.certSigningRequest
+
+exit
+
+# 4. Send CSR above to Apple Developer portal.
+# 5. Download the Apple-generated distribution certificate.
+# 6. Convert Apple-generated DER file into PEM
+
+openssl x509 -in pass.cer -inform DER -out ${ID}.pem -outform PEM
+
+
+
+# 7. Pack certificate and private key together in a PKCS12 file
+
+openssl pkcs12 -export -inkey ${ID}.key -in ${ID}.pem -out ${ID}.p12
