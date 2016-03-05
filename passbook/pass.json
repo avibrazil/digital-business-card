@@ -1,5 +1,8 @@
 {
-  "passTypeIdentifier": "pass.net.alkalay.avipaulo.digicard",
+  "formatVersion": 1,
+    
+  "teamIdentifier": "J8QHNGSU4D",
+  "passTypeIdentifier": "pass.net.alkalay.avipaladini.digicard",
   "serialNumber": "avixⓐbr.ibm.com",
 
   "description": "Digital Business Card for Avi Alkalay",
@@ -9,10 +12,6 @@
   "foregroundColor": "rgb(31,112,193)",
   "labelColor": "rgb(0,0,0)",
 
-  "formatVersion": 1,
-  
-  "teamIdentifier": "DX3GD3C2Z7",
-  
   "logoText": "",
   
   "generic": {
@@ -157,7 +156,7 @@
     } 
   ],
   
-  "relevantDate": "2015-12-06T12:00:00-02:00",
+  "relevantDate": "2016-12-06T12:00:00-02:00",
   
   "barcode": {
     "format": "PKBarcodeFormatQR",
