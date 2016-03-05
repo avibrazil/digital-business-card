@@ -17,7 +17,7 @@
 # an example into the Digital Business Card source code.
 EMAILCHAR="ⓐ"
 
-APPLEWWDRCA="`dirname $0`/AppleWWDRCA.pem"
+APPLEWWDRCA="`dirname $0`/AppleWWDRCA-2023.02.07.pem"
 
 CERTIFICATE="$1"
 SOURCE="$2"
