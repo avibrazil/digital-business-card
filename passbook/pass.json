@@ -99,16 +99,14 @@
         "value": "frontEmail_value"
       },
       {
-        "key": "backSignature",
-        "label": "backSignature_label",
-        "value": "backSignature_value"
-      }
-    ]
+        "key": "backBadge",
+        "label": "backBadge_label",
+        "value": "backBadge_value",
+        "attributedValue": "backBadge_attributedValue"
+      },
+    ],
   },
-  
-  
-  
-  
+
   "locations": [
     {
       "latitude": 0,

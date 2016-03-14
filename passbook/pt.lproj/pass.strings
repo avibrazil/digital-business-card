@@ -14,6 +14,7 @@
 
 "backTitle_label" = "O que eu faço";
 "backTitle_value" = "Arquiteto na IBM para soluções complexas que habilitam Tranformação de TI e Inovações para o Negócio";
+"backTitle_attributedValue" = "Arquiteto na IBM para soluções complexas que habilitam Tranformação de TI e Inovações para o Negócio";
 
 "backURL_label" = "⚡️ Mais detalhes sobre as soluções da IBM";
 "backURL_value" = "http://IBM.com/BR";
@@ -34,6 +35,10 @@
 
 "backMore_value" = "https://aamiyazaki.net.br/card/";
 "backMore_attributedValue" = "• <a href=\"https://aamiyazaki.net.br/card/vcard.vcf\">Adicione-me aos contatos</a>\n• <a href=\"https://aamiyazaki.net.br/card/\">Veja meu cartão de visita em outros formatos</a>\n• Feito com <a href=\"https://github.com/avibrazil/digital-business-card\">Digital Business Card</a>";
+
+"backBadge_label" = "Meus Badges";
+"backBadge_attributedValue" = "<a href=\"http://bit.ly/SolAdvCCRAv4\">IBM Certified Solution Advisor - Cloud Computing Architecture V4</a>\n <a href=\"http://bit.ly/BigDataFoundations\">Big Data Foundations</a>\n <a href=\"http://bit.ly/BigDataHadoopFoundations\">Big Data Hadoop Foundations</a>";
+
 
 "locationsRelevantText_value" = "Alberto trabalha perto daqui";
 
