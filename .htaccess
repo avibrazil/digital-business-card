@@ -2,5 +2,5 @@ AddType application/vnd.apple.pkpass pkpass
 AddType text/vcard vcf
 
 RewriteEngine on
-RewriteCond %{HTTP_USER_AGENT} (Wallet|Passbook)
+RewriteCond %{HTTP_USER_AGENT} (Wallet|Passbook|iPhone)
 RewriteRule (.*) passbook.pkpass
