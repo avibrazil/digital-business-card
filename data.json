@@ -6,6 +6,8 @@ var obj =
 	*/
 	"emailchar": "ⓐ",
 	
+	"ganalytics": "UA-629709-5",
+	
 	"name": {
 		"first": "Avi",
 		"last": "Alkalay",
@@ -112,7 +114,7 @@ var obj =
 		"other": [
 			{
 				"label": "Bitcoin",
-				"value": "1FAmpYAuxY5EgQwm5roSnwKhAX4MxxxB3k"
+				"value": "12c8eL6HVeNgXPf8dyoymgVahJWqgnc4Gk"
 			}
 		],
 		
