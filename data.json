@@ -74,14 +74,6 @@ var obj =
 			{
 				"value": "avibrazil",
 				"label": "github"
-			},
-			{
-				"value": "avibrazil",
-				"label": "twitter"
-			},
-			{
-				"value": "+AviAlkalayBrazil",
-				"label": "google"
 			}
 		],
 		
@@ -124,7 +116,7 @@ var obj =
 		
 		"qrcode": [
 			{
-				"label": "Scan with iPhone Wallet app or any QR reader"
+				"label": "Scan with iPhone camera, Wallet or any QR reader"
 			}
 		]
 	}	
