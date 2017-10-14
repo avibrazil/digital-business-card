@@ -17,7 +17,7 @@ var obj =
 	"department": "Cloud • Agile • Mobile • User Engagement",
 
 	"columns": {
-		"1": ["phone", "publications", "address", "mail"],
+		"1": ["phone", "publications", "address","mail"],
 		"2": ["social", "",            "",        "other", "qrcode"]
 	},
 	
@@ -46,8 +46,12 @@ var obj =
 				"label": "skype"
 			},
 			{
-				"value": "avibrazil.vmrⓐvidexio.com",
+				"value": "avixⓐibm.webex.com",
 				"label": "SIP"
+			},
+			{
+				"value": "ibm.webex.com/meet/avix",
+				"label": "conference"
 			}
 		],
 
