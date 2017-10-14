@@ -73,6 +73,10 @@ var obj =
 			},
 			{
 				"value": "avibrazil",
+				"label": "github"
+			},
+			{
+				"value": "avibrazil",
 				"label": "twitter"
 			},
 			{
