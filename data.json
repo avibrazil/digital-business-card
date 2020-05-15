@@ -12,13 +12,13 @@ var obj =
 		"first": "Avi",
 		"last": "Alkalay",
 	},
-	"title": "Full stack web & mobile solutions architect, Cloud & DevOps Advisor",
-	"company": "IBM",
-	"department": "Cloud • Agile • Mobile • User Engagement",
+	"title": "Data Scientist, Data Engineer, Teacher and Hacker",
+	"company": "CI&T and Digital House",
+	"department": "Data",
 
 	"columns": {
-		"1": ["phone", "publications", "address","mail"],
-		"2": ["social", "",            "",        "other", "qrcode"]
+		"1": ["phone", "publications", "other","mail"],
+		"2": ["social", "",            "",     "qrcode"]
 	},
 	
 	"section": {
@@ -30,11 +30,7 @@ var obj =
 				"vcfTag": "mobile" 
 			},
 			{
-				"value": "+55 (11) 2132-2327",
-				"label": "work"
-			},
-			{
-				"value": "avixⓐbr.ibm.com",
+				"value": "avibrazilⓐgmail.com",
 				"label": "facetime"
 			},
 			{
@@ -45,19 +41,11 @@ var obj =
 				"value": "avibrazil",
 				"label": "skype"
 			},
-			{
-				"value": "avixⓐibm.webex.com",
-				"label": "SIP"
-			},
-			{
-				"value": "ibm.webex.com/meet/avix",
-				"label": "conference"
-			}
 		],
 
 		"mail": [
 			{
-				"value": "avixⓐbr.ibm.com",
+				"value": "aviⓐciandt.com",
 				"label": "work"
 			},
 			{
@@ -98,19 +86,7 @@ var obj =
 				"protocol": "https"
 			}
 		],
-		
-		"address": [
-			{
-				"label": "work",
-				"street": "Tutóia 1157",
-				"city": "São Paulo",
-				"state": "São Paulo",
-				"country": "Brazil",
-				"zip": "04007-900",
-				"geo": "-23.579975,-46.649241"
-			}
-		],
-		
+				
 		"other": [
 			{
 				"label": "Bitcoin",
