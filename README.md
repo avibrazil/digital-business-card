@@ -74,7 +74,7 @@ util/pkpass.sh ${P12 certificate file from Apple Developer account} ${folder tha
 The card/pass on Android and Windows Mobile
 ===========================================
 
-I heard Windows Mobile now supports Wallet passes natively. Android user can install third party Wallet apps such as these:
+I heard Windows Mobile now supports Wallet passes natively. Android users can install third party Wallet apps such as these:
 
 - https://play.google.com/store/apps/details?id=com.passesalliance.wallet&hl=en
 - https://play.google.com/store/apps/details?id=com.sec.android.wallet
@@ -85,6 +85,6 @@ I heard Windows Mobile now supports Wallet passes natively. Android user can ins
 I've tested some of those and concluded they don't work very well. Final conclusion is that Windows and Android users can still scan my card/pass QR, but they'll get only the fallback web page with a link to download my VCF.
 
 Your friend,<br/>
-Avi Alkalay &lt;avi at unix do sh&gt;<br/>
+Avi Alkalay &lt;avi at unix dot sh&gt;<br/>
 2014-11-01<br/>
 Made in Brazil
