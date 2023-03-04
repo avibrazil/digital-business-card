@@ -12,9 +12,9 @@ var obj =
 		"first": "Avi",
 		"last": "Alkalay",
 	},
-	"title": "Data Scientist, Data Engineer, Teacher and Hacker",
+	"title": "Chieft Technology Officer",
 	"company": "CI&T and Digital House",
-	"department": "Data",
+	"department": "Business Innovation",
 
 	"columns": {
 		"1": ["phone", "publications", "other","mail"],
@@ -30,12 +30,8 @@ var obj =
 				"vcfTag": "mobile" 
 			},
 			{
-				"value": "avibrazilⓐgmail.com",
+				"value": "avi@unix.sh",
 				"label": "facetime"
-			},
-			{
-				"value": "avibrazilⓐgmail.com",
-				"label": "hangouts"
 			},
 			{
 				"value": "avibrazil",
@@ -44,10 +40,6 @@ var obj =
 		],
 
 		"mail": [
-			{
-				"value": "aviⓐciandt.com",
-				"label": "work"
-			},
 			{
 				"value": "aviⓐunix.sh",
 				"label": "personal"
